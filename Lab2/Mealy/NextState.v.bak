@@ -1,0 +1,40 @@
+module NextState(NS_o,NS_i,Reg_i);
+//input declarations
+input[3:0] NS_i;
+input[2:0] Reg_i;
+//output declarations
+output[2:0] NS_o;
+//connect type
+reg[2:0] NS_o;
+always @(NS_i,Reg_i) 
+begin
+	case(NS_i)
+		4'd1: 
+			begin
+				if(Reg_i==2'd0)
+					NS_o = 3'd1;
+				else
+					NS_o = 3'd0;
+				
+			end
+		4'd3:
+			begin
+				if(Reg_i==2'd1)
+					NS_o = 3'd2;
+				else if (Reg_i==2'd3)
+					NS_o = 3'd4;
+				else 
+					NS_o = 3'd0;
+			end
+		4'd9:
+			begin 
+				if(Reg_i==2'd2)
+					NS_o = 3'd3;
+				else
+					NS_o = 3'd0;
+			end
+		default:
+				NS_o=3'd0;
+	endcase
+end
+endmodule 

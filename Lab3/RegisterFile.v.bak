@@ -1,0 +1,5 @@
+module	RegisterFile(DATA_IN,ADDR_i,WE_i,clk,OUTA,OUTB);
+reg[15:0] register[15:0]
+
+
+endmodule

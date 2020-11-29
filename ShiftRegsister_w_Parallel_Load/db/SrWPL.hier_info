@@ -1,0 +1,373 @@
+|SrWPL
+data_out[0] <= D_n:inst0.Out
+data_out[1] <= D_n:inst0.Out
+data_out[2] <= D_n:inst0.Out
+data_out[3] <= D_n:inst0.Out
+data_out[4] <= D_n:inst0.Out
+data_out[5] <= D_n:inst0.Out
+data_out[6] <= D_n:inst0.Out
+data_out[7] <= D_n:inst0.Out
+data_in[0] => data_in[0]~7.IN1
+data_in[1] => data_in[1]~6.IN1
+data_in[2] => data_in[2]~5.IN1
+data_in[3] => data_in[3]~4.IN1
+data_in[4] => data_in[4]~3.IN1
+data_in[5] => data_in[5]~2.IN1
+data_in[6] => data_in[6]~1.IN1
+data_in[7] => data_in[7]~0.IN1
+selection[0] => selection[0]~1.IN1
+selection[1] => selection[1]~0.IN1
+clk => clk~0.IN1
+i_right => i_right~0.IN1
+i_left => i_left~0.IN1
+
+
+|SrWPL|D_n:inst0
+Out[0] <= D_Flipflop:inst0[0].data_q
+Out[1] <= D_Flipflop:inst0[1].data_q
+Out[2] <= D_Flipflop:inst0[2].data_q
+Out[3] <= D_Flipflop:inst0[3].data_q
+Out[4] <= D_Flipflop:inst0[4].data_q
+Out[5] <= D_Flipflop:inst0[5].data_q
+Out[6] <= D_Flipflop:inst0[6].data_q
+Out[7] <= D_Flipflop:inst0[7].data_q
+In[0] => D_0:inst[0].in1
+In[1] => D_0:inst[1].in1
+In[2] => D_0:inst[2].in1
+In[3] => D_0:inst[3].in1
+In[4] => D_0:inst[4].in1
+In[5] => D_0:inst[5].in1
+In[6] => D_0:inst[6].in1
+In[7] => D_0:inst[7].in1
+selection[0] => D_0:inst[0].select[0]
+selection[0] => D_0:inst[1].select[0]
+selection[0] => D_0:inst[2].select[0]
+selection[0] => D_0:inst[3].select[0]
+selection[0] => D_0:inst[4].select[0]
+selection[0] => D_0:inst[5].select[0]
+selection[0] => D_0:inst[6].select[0]
+selection[0] => D_0:inst[7].select[0]
+selection[1] => D_0:inst[0].select[1]
+selection[1] => D_0:inst[1].select[1]
+selection[1] => D_0:inst[2].select[1]
+selection[1] => D_0:inst[3].select[1]
+selection[1] => D_0:inst[4].select[1]
+selection[1] => D_0:inst[5].select[1]
+selection[1] => D_0:inst[6].select[1]
+selection[1] => D_0:inst[7].select[1]
+I_right => D_0:inst[0].in2
+I_left => D_0:inst[7].in3
+clk => D_Flipflop:inst0[0].clk
+clk => D_Flipflop:inst0[1].clk
+clk => D_Flipflop:inst0[2].clk
+clk => D_Flipflop:inst0[3].clk
+clk => D_Flipflop:inst0[4].clk
+clk => D_Flipflop:inst0[5].clk
+clk => D_Flipflop:inst0[6].clk
+clk => D_Flipflop:inst0[7].clk
+
+
+|SrWPL|D_n:inst0|D_0:inst[0]
+data_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+in0 => inst0.IN0
+in1 => inst1.IN0
+in2 => inst2.IN0
+in3 => inst3.IN0
+select[0] => inst1.IN1
+select[0] => inst3.IN1
+select[0] => inst0.IN1
+select[0] => inst2.IN1
+select[1] => inst2.IN2
+select[1] => inst3.IN2
+select[1] => inst0.IN2
+select[1] => inst1.IN2
+
+
+|SrWPL|D_n:inst0|D_0:inst[1]
+data_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+in0 => inst0.IN0
+in1 => inst1.IN0
+in2 => inst2.IN0
+in3 => inst3.IN0
+select[0] => inst1.IN1
+select[0] => inst3.IN1
+select[0] => inst0.IN1
+select[0] => inst2.IN1
+select[1] => inst2.IN2
+select[1] => inst3.IN2
+select[1] => inst0.IN2
+select[1] => inst1.IN2
+
+
+|SrWPL|D_n:inst0|D_0:inst[2]
+data_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+in0 => inst0.IN0
+in1 => inst1.IN0
+in2 => inst2.IN0
+in3 => inst3.IN0
+select[0] => inst1.IN1
+select[0] => inst3.IN1
+select[0] => inst0.IN1
+select[0] => inst2.IN1
+select[1] => inst2.IN2
+select[1] => inst3.IN2
+select[1] => inst0.IN2
+select[1] => inst1.IN2
+
+
+|SrWPL|D_n:inst0|D_0:inst[3]
+data_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+in0 => inst0.IN0
+in1 => inst1.IN0
+in2 => inst2.IN0
+in3 => inst3.IN0
+select[0] => inst1.IN1
+select[0] => inst3.IN1
+select[0] => inst0.IN1
+select[0] => inst2.IN1
+select[1] => inst2.IN2
+select[1] => inst3.IN2
+select[1] => inst0.IN2
+select[1] => inst1.IN2
+
+
+|SrWPL|D_n:inst0|D_0:inst[4]
+data_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+in0 => inst0.IN0
+in1 => inst1.IN0
+in2 => inst2.IN0
+in3 => inst3.IN0
+select[0] => inst1.IN1
+select[0] => inst3.IN1
+select[0] => inst0.IN1
+select[0] => inst2.IN1
+select[1] => inst2.IN2
+select[1] => inst3.IN2
+select[1] => inst0.IN2
+select[1] => inst1.IN2
+
+
+|SrWPL|D_n:inst0|D_0:inst[5]
+data_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+in0 => inst0.IN0
+in1 => inst1.IN0
+in2 => inst2.IN0
+in3 => inst3.IN0
+select[0] => inst1.IN1
+select[0] => inst3.IN1
+select[0] => inst0.IN1
+select[0] => inst2.IN1
+select[1] => inst2.IN2
+select[1] => inst3.IN2
+select[1] => inst0.IN2
+select[1] => inst1.IN2
+
+
+|SrWPL|D_n:inst0|D_0:inst[6]
+data_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+in0 => inst0.IN0
+in1 => inst1.IN0
+in2 => inst2.IN0
+in3 => inst3.IN0
+select[0] => inst1.IN1
+select[0] => inst3.IN1
+select[0] => inst0.IN1
+select[0] => inst2.IN1
+select[1] => inst2.IN2
+select[1] => inst3.IN2
+select[1] => inst0.IN2
+select[1] => inst1.IN2
+
+
+|SrWPL|D_n:inst0|D_0:inst[7]
+data_out <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+in0 => inst0.IN0
+in1 => inst1.IN0
+in2 => inst2.IN0
+in3 => inst3.IN0
+select[0] => inst1.IN1
+select[0] => inst3.IN1
+select[0] => inst0.IN1
+select[0] => inst2.IN1
+select[1] => inst2.IN2
+select[1] => inst3.IN2
+select[1] => inst0.IN2
+select[1] => inst1.IN2
+
+
+|SrWPL|D_n:inst0|D_Flipflop:inst0[0]
+data_q <= D_latch:slave.Qout
+data_in => data_in~0.IN1
+clk => clk~0.IN1
+
+
+|SrWPL|D_n:inst0|D_Flipflop:inst0[0]|D_latch:mster
+Qout <= Qout~0.DB_MAX_OUTPUT_PORT_TYPE
+Din => inst1.IN0
+Din => inst0.IN0
+control_sig => inst0.IN1
+control_sig => inst1.IN1
+
+
+|SrWPL|D_n:inst0|D_Flipflop:inst0[0]|D_latch:slave
+Qout <= Qout~0.DB_MAX_OUTPUT_PORT_TYPE
+Din => inst1.IN0
+Din => inst0.IN0
+control_sig => inst0.IN1
+control_sig => inst1.IN1
+
+
+|SrWPL|D_n:inst0|D_Flipflop:inst0[1]
+data_q <= D_latch:slave.Qout
+data_in => data_in~0.IN1
+clk => clk~0.IN1
+
+
+|SrWPL|D_n:inst0|D_Flipflop:inst0[1]|D_latch:mster
+Qout <= Qout~0.DB_MAX_OUTPUT_PORT_TYPE
+Din => inst1.IN0
+Din => inst0.IN0
+control_sig => inst0.IN1
+control_sig => inst1.IN1
+
+
+|SrWPL|D_n:inst0|D_Flipflop:inst0[1]|D_latch:slave
+Qout <= Qout~0.DB_MAX_OUTPUT_PORT_TYPE
+Din => inst1.IN0
+Din => inst0.IN0
+control_sig => inst0.IN1
+control_sig => inst1.IN1
+
+
+|SrWPL|D_n:inst0|D_Flipflop:inst0[2]
+data_q <= D_latch:slave.Qout
+data_in => data_in~0.IN1
+clk => clk~0.IN1
+
+
+|SrWPL|D_n:inst0|D_Flipflop:inst0[2]|D_latch:mster
+Qout <= Qout~0.DB_MAX_OUTPUT_PORT_TYPE
+Din => inst1.IN0
+Din => inst0.IN0
+control_sig => inst0.IN1
+control_sig => inst1.IN1
+
+
+|SrWPL|D_n:inst0|D_Flipflop:inst0[2]|D_latch:slave
+Qout <= Qout~0.DB_MAX_OUTPUT_PORT_TYPE
+Din => inst1.IN0
+Din => inst0.IN0
+control_sig => inst0.IN1
+control_sig => inst1.IN1
+
+
+|SrWPL|D_n:inst0|D_Flipflop:inst0[3]
+data_q <= D_latch:slave.Qout
+data_in => data_in~0.IN1
+clk => clk~0.IN1
+
+
+|SrWPL|D_n:inst0|D_Flipflop:inst0[3]|D_latch:mster
+Qout <= Qout~0.DB_MAX_OUTPUT_PORT_TYPE
+Din => inst1.IN0
+Din => inst0.IN0
+control_sig => inst0.IN1
+control_sig => inst1.IN1
+
+
+|SrWPL|D_n:inst0|D_Flipflop:inst0[3]|D_latch:slave
+Qout <= Qout~0.DB_MAX_OUTPUT_PORT_TYPE
+Din => inst1.IN0
+Din => inst0.IN0
+control_sig => inst0.IN1
+control_sig => inst1.IN1
+
+
+|SrWPL|D_n:inst0|D_Flipflop:inst0[4]
+data_q <= D_latch:slave.Qout
+data_in => data_in~0.IN1
+clk => clk~0.IN1
+
+
+|SrWPL|D_n:inst0|D_Flipflop:inst0[4]|D_latch:mster
+Qout <= Qout~0.DB_MAX_OUTPUT_PORT_TYPE
+Din => inst1.IN0
+Din => inst0.IN0
+control_sig => inst0.IN1
+control_sig => inst1.IN1
+
+
+|SrWPL|D_n:inst0|D_Flipflop:inst0[4]|D_latch:slave
+Qout <= Qout~0.DB_MAX_OUTPUT_PORT_TYPE
+Din => inst1.IN0
+Din => inst0.IN0
+control_sig => inst0.IN1
+control_sig => inst1.IN1
+
+
+|SrWPL|D_n:inst0|D_Flipflop:inst0[5]
+data_q <= D_latch:slave.Qout
+data_in => data_in~0.IN1
+clk => clk~0.IN1
+
+
+|SrWPL|D_n:inst0|D_Flipflop:inst0[5]|D_latch:mster
+Qout <= Qout~0.DB_MAX_OUTPUT_PORT_TYPE
+Din => inst1.IN0
+Din => inst0.IN0
+control_sig => inst0.IN1
+control_sig => inst1.IN1
+
+
+|SrWPL|D_n:inst0|D_Flipflop:inst0[5]|D_latch:slave
+Qout <= Qout~0.DB_MAX_OUTPUT_PORT_TYPE
+Din => inst1.IN0
+Din => inst0.IN0
+control_sig => inst0.IN1
+control_sig => inst1.IN1
+
+
+|SrWPL|D_n:inst0|D_Flipflop:inst0[6]
+data_q <= D_latch:slave.Qout
+data_in => data_in~0.IN1
+clk => clk~0.IN1
+
+
+|SrWPL|D_n:inst0|D_Flipflop:inst0[6]|D_latch:mster
+Qout <= Qout~0.DB_MAX_OUTPUT_PORT_TYPE
+Din => inst1.IN0
+Din => inst0.IN0
+control_sig => inst0.IN1
+control_sig => inst1.IN1
+
+
+|SrWPL|D_n:inst0|D_Flipflop:inst0[6]|D_latch:slave
+Qout <= Qout~0.DB_MAX_OUTPUT_PORT_TYPE
+Din => inst1.IN0
+Din => inst0.IN0
+control_sig => inst0.IN1
+control_sig => inst1.IN1
+
+
+|SrWPL|D_n:inst0|D_Flipflop:inst0[7]
+data_q <= D_latch:slave.Qout
+data_in => data_in~0.IN1
+clk => clk~0.IN1
+
+
+|SrWPL|D_n:inst0|D_Flipflop:inst0[7]|D_latch:mster
+Qout <= Qout~0.DB_MAX_OUTPUT_PORT_TYPE
+Din => inst1.IN0
+Din => inst0.IN0
+control_sig => inst0.IN1
+control_sig => inst1.IN1
+
+
+|SrWPL|D_n:inst0|D_Flipflop:inst0[7]|D_latch:slave
+Qout <= Qout~0.DB_MAX_OUTPUT_PORT_TYPE
+Din => inst1.IN0
+Din => inst0.IN0
+control_sig => inst0.IN1
+control_sig => inst1.IN1
+
+

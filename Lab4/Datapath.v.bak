@@ -1,0 +1,1 @@
+module Datapath(PCSrc,RegSrc,RegEn,ALUSrc,ALUOp)

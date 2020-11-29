@@ -1,0 +1,28 @@
+module MooreFSM(clk,MooreFSM_i,MooreFSM_o);
+//input 
+input [3:0] MealyFSMFSM_i;
+input clk;
+//output
+output MealyFSM_o;
+//data types for port
+wire clk;
+wire [3:0] MealyFSM_i;
+wire [1:0] NS_o;
+wire [1:0] Reg_o;
+wire [3:0] last_i;
+NextState NextState_inst0(
+	.NS_i(MooreFSM_i),
+	.NS_o(NS_o),
+	.Reg_i(Reg_o)
+);
+register register_inst1(
+	.clk(clk),
+	.data_i(NS_o),
+	.data_o(Reg_o)
+);
+outFSM outFSM_inst2(
+	.last_i(last_i);
+	.in_i(Reg_o),
+	.out_o(MooreFSM_o)
+);
+endmodule

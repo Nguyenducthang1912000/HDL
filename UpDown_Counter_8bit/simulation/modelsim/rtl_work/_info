@@ -1,0 +1,110 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\CE\HDLDesign\Lab\UpDown_Counter_8bit\simulation\modelsim
+vD_FF
+I_1eYUjJ11Q>68QMoXol_R1
+VO]EeJk>OQTJQz@HOb@kV;1
+Z1 dD:\CE\HDLDesign\Lab\UpDown_Counter_8bit\simulation\modelsim
+w1600507652
+8D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/D_FF.v
+FD:/CE/HDLDesign/Lab/UpDown_Counter_8bit/D_FF.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/CE/HDLDesign/Lab/UpDown_Counter_8bit -O0
+n@d_@f@f
+!i10b 1
+!s100 h>Kc<Pl]8AM7cA_E?>:HK3
+!s85 0
+!s108 1600604597.028000
+!s107 D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/D_FF.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/CE/HDLDesign/Lab/UpDown_Counter_8bit|D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/D_FF.v|
+!s101 -O0
+vHAS
+I3aEMzP3giOh=gf0L7=;[?0
+VznHbCCN@JTiIiX0_f:GBO2
+R1
+w1600485085
+8D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/HAS.v
+FD:/CE/HDLDesign/Lab/UpDown_Counter_8bit/HAS.v
+L0 2
+R2
+r1
+31
+R3
+n@h@a@s
+R4
+!i10b 1
+!s100 5@@IQzoB8G8c8T<e5aU6T1
+!s85 0
+!s108 1600604596.525000
+!s107 D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/HAS.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/CE/HDLDesign/Lab/UpDown_Counter_8bit|D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/HAS.v|
+!s101 -O0
+vMux2_1
+I1cL[HKePfREAhbJ84E8h;3
+VPdj3UJ2TS7_gbCdDF2^:20
+R1
+w1600486500
+8D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/Mux2_1.v
+FD:/CE/HDLDesign/Lab/UpDown_Counter_8bit/Mux2_1.v
+L0 2
+R2
+r1
+31
+R3
+R4
+n@mux2_1
+!i10b 1
+!s100 OYi31gH:9h<A8cm2;QzA<1
+!s85 0
+!s108 1600604596.715000
+!s107 D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/Mux2_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/CE/HDLDesign/Lab/UpDown_Counter_8bit|D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/Mux2_1.v|
+!s101 -O0
+vTestbench
+!i10b 1
+!s100 <XU7lB@TJ@B^Um=XFSSPh2
+IAa2Ucm6SKQM`E;M2H3M0V0
+VGdUiEZgaMiVEi@bgHJeE13
+R1
+w1600604545
+8D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/../Pre_UpDown/Testbench.v
+FD:/CE/HDLDesign/Lab/UpDown_Counter_8bit/../Pre_UpDown/Testbench.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1600604597.169000
+!s107 D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/../Pre_UpDown/Testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/../Pre_UpDown|D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/../Pre_UpDown/Testbench.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/../Pre_UpDown -O0
+n@testbench
+vTestHAS
+I262BRlY_f[R`zE9E6DDgN0
+Vnom4^ShzcTT7d9m1b<L^I3
+R1
+w1600509046
+8D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/TestHAS.v
+FD:/CE/HDLDesign/Lab/UpDown_Counter_8bit/TestHAS.v
+L0 6
+R2
+r1
+31
+R3
+R4
+n@test@h@a@s
+!i10b 1
+!s100 [mW2ZN=ZOB<;FieFo:<W>1
+!s85 0
+!s108 1600604596.866000
+!s107 D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/TestHAS.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/CE/HDLDesign/Lab/UpDown_Counter_8bit|D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/TestHAS.v|
+!s101 -O0

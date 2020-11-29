@@ -1,0 +1,15 @@
+F:/VerilogHDL/SRAM2/Pre_SRAM/Testbench.v {1 {vlog -work work F:/VerilogHDL/SRAM2/Pre_SRAM/Testbench.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Testbench
+
+Top level modules:
+	Testbench
+
+} {} {}} F:/VerilogHDL/SRAM/simulation/modelsim/SRAM.vo {1 {vlog -work work F:/VerilogHDL/SRAM/simulation/modelsim/SRAM.vo
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module SRAM
+
+Top level modules:
+	SRAM
+
+} {} {}}

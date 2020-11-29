@@ -1,0 +1,139 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Pos_FIFO
+vD_FF
+Z0 !s110 1603037311
+!i10b 1
+!s100 PU7Sah1h3LE6FAUSf2@:X0
+IzE0hXZ3ETQ1m0Yja3<R?61
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/Pos_Regfile
+w1603024789
+8D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/D_FF.v
+FD:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/D_FF.v
+L0 1
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1603037310.000000
+!s107 D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/D_FF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/D_FF.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@d_@f@f
+vdecoder5bit
+R0
+!i10b 1
+!s100 ]:1[mU^9@]RN::V>;ZDEL3
+IRn]W=Zh;1@AcNY9KcQ@G42
+R1
+R2
+w1603014815
+8D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/decoder5bit.v
+FD:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/decoder5bit.v
+L0 2
+R3
+r1
+!s85 0
+31
+Z6 !s108 1603037311.000000
+!s107 D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/decoder5bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/decoder5bit.v|
+!s101 -O0
+!i113 1
+R5
+vrefile_cell
+R0
+!i10b 1
+!s100 aKa`dgP5EnI;cJOjBoeN63
+IDCEX]@0;jOLmc`26=?NBd2
+R1
+R2
+w1603024803
+8D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/refile_cell.v
+FD:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/refile_cell.v
+L0 2
+R3
+r1
+!s85 0
+31
+R6
+!s107 D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/refile_cell.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/refile_cell.v|
+!s101 -O0
+!i113 1
+R5
+vrefile_cell_32bit
+R0
+!i10b 1
+!s100 Y0No5RYidHzg`@oaP8>0k2
+IPn417]U7We0Mj`F`F<]?81
+R1
+R2
+w1603031652
+8D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/refile_cell_32bit.v
+FD:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/refile_cell_32bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R6
+!s107 D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/refile_cell_32bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/refile_cell_32bit.v|
+!s101 -O0
+!i113 1
+R5
+vRegsisterFile
+!s110 1603037310
+!i10b 1
+!s100 `m>ZlC^nDWIEnJE[;f;gU1
+IO=J<BIcP@ndB[]cz8bejW3
+R1
+R2
+w1603033270
+8D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/RegsisterFile.v
+FD:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/RegsisterFile.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/RegsisterFile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/RegsisterFile.v|
+!s101 -O0
+!i113 1
+R5
+n@regsister@file
+vTestbench
+R0
+!i10b 1
+!s100 9QClnYSmnzXEB9V@leS263
+I8Wflel2o3EI1832=hCS=@2
+R1
+R2
+w1603037305
+8D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/Pos_Regfile/Testbench.v
+FD:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/Pos_Regfile/Testbench.v
+L0 3
+R3
+r1
+!s85 0
+31
+R6
+!s107 D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/Pos_Regfile/Testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/Pos_Regfile/Testbench.v|
+!s101 -O0
+!i113 1
+R5
+n@testbench

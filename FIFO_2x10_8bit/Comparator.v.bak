@@ -1,0 +1,11 @@
+
+module Comparator (data_out,data_a,data_b);
+	input [9:0] data_a,data_b;
+	output data_out;
+	
+	wire [9:0] data_a,data_b, xor_out;
+	
+	xor xor0 (xor_out,data_a,data_b);
+	
+
+endmodule 

@@ -1,0 +1,61 @@
+# Reading D:/ModelSim/modelsim_ase/tcl/vsim/pref.tcl 
+# do UpDown_Counter_8bit_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\ModelSim\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\ModelSim\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/CE/HDLDesign/Lab/UpDown_Counter_8bit {D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/HAS.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module HAS
+# 
+# Top level modules:
+# 	HAS
+# vlog -vlog01compat -work work +incdir+D:/CE/HDLDesign/Lab/UpDown_Counter_8bit {D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/Mux2_1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Mux2_1
+# 
+# Top level modules:
+# 	Mux2_1
+# vlog -vlog01compat -work work +incdir+D:/CE/HDLDesign/Lab/UpDown_Counter_8bit {D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/TestHAS.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module TestHAS
+# 
+# Top level modules:
+# 	TestHAS
+# vlog -vlog01compat -work work +incdir+D:/CE/HDLDesign/Lab/UpDown_Counter_8bit {D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/D_FF.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# 
+# vlog -vlog01compat -work work +incdir+D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/../Pre_UpDown {D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/../Pre_UpDown/Testbench.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Testbench
+# 
+# Top level modules:
+# 	Testbench
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  Testbench
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps Testbench 
+# Loading work.Testbench
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/../Pre_UpDown/Testbench.v(29)
+#    Time: 4600 ns  Iteration: 0  Instance: /Testbench
+# 1
+# Break in Module Testbench at D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/../Pre_UpDown/Testbench.v line 29
+# Simulation Breakpoint: 1
+# Break in Module Testbench at D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/../Pre_UpDown/Testbench.v line 29
+# MACRO ./UpDown_Counter_8bit_run_msim_rtl_verilog.do PAUSED at line 20

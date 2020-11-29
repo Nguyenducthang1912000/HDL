@@ -1,0 +1,36 @@
+D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/decoder5bit.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/decoder5bit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module decoder5bit
+
+Top level modules:
+	decoder5bit
+
+} {} {}} D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/refile_cell.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/refile_cell.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module refile_cell
+
+Top level modules:
+	refile_cell
+
+} {} {}} D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/D_FF.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/D_FF.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module D_FF
+
+Top level modules:
+	D_FF
+
+} {} {}} D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/RegsisterFile.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/RegsisterFile.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module RegsisterFile
+
+Top level modules:
+	RegsisterFile
+
+} {} {}} D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/refile_cell_32bit.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/refile_cell_32bit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module refile_cell_32bit
+
+Top level modules:
+	refile_cell_32bit
+
+} {} {}}

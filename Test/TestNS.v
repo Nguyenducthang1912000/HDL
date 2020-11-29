@@ -1,0 +1,16 @@
+module TestNS (clk,State,Done);
+input clk;
+output Done;
+output [15:0] State;
+wire[15:0] NStoReg;
+Reg1 Reg1_inst0 (
+.RegIn(NStoReg),
+.clk(clk),
+.RegOut(State)
+);
+NextState NextState_inst1(
+.NextState(NStoReg),
+.CurrentState(State),
+.Done(Done)
+);
+endmodule

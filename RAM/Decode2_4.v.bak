@@ -1,0 +1,11 @@
+module Decode2_4 (C,X);
+//input ports declarations
+input [1:0] X;
+//output ports declarations
+output [3:0] C;
+//code start here 
+and (C[0],!A[0],!A[1]);
+and (C[1],A[0],!A[1]);
+and (C[2],!A[0],A[1]);
+and (C[3],A[0],A[1]);
+endmodule

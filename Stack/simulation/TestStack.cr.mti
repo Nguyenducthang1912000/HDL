@@ -1,0 +1,17 @@
+F:/VerilogHDL/Stack/simulation/TestStack.v {2 {vlog -work work {F:\VerilogHDL\Stack\simulation\TestStack.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+** Warning: F:\VerilogHDL\Stack\simulation\TestStack.v(2): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+-- Compiling module TestStack
+
+Top level modules:
+	TestStack
+
+} {} {}} F:/VerilogHDL/Stack/simulation/modelsim/Stack.vo {1 {vlog -work work F:/VerilogHDL/Stack/simulation/modelsim/Stack.vo
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Stack
+
+Top level modules:
+	Stack
+
+} {} {}}

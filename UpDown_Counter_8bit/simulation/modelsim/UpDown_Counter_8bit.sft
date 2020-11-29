@@ -1,0 +1,5 @@
+set tool_name "ModelSim-Altera (Verilog)"
+set corner_file_list {
+	{{"Slow Model"} {UpDown_Counter_8bit.vo UpDown_Counter_8bit_v.sdo}}
+	{{"Fast Model"} {UpDown_Counter_8bit_fast.vo UpDown_Counter_8bit_v_fast.sdo}}
+}

@@ -1,0 +1,13 @@
+module ControlUnit(
+input Start,Clk,
+output IE,WE,OE,
+output[1:0] S,
+output[2:0] ADDR_WR,ADDR_RDA,ADDR_RDB,Opcode
+);
+reg[3:0] count;
+always @(posedge clk) begin
+	count <= count + 1'b1;
+	case(count)
+	
+end
+endmodule

@@ -1,0 +1,7 @@
+|ModelSimTest
+Din => Qout~reg0.DATAIN
+Clk => Qout~reg0.CLK
+Resetn => Qout~reg0.ACLR
+Qout <= Qout~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

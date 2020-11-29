@@ -1,0 +1,4 @@
+module SignExtend (DATA_IN,DATA_OUT);
+input signed [4:0] DATA_IN;
+output [15:0]	DATA_OUT;
+assign signed DATA_OUT = DATA_IN;

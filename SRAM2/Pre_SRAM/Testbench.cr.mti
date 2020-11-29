@@ -1,0 +1,50 @@
+D:/CE/HDLDesign/Lab/Ex/SRAM/D_latch.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/Ex/SRAM/D_latch.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module D_latch
+
+Top level modules:
+	D_latch
+
+} {} {}} D:/CE/HDLDesign/Lab/Ex/SRAM/memcell.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/Ex/SRAM/memcell.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module memcell
+
+Top level modules:
+	memcell
+
+} {} {}} D:/CE/HDLDesign/Lab/Ex/SRAM/memcell_nbit.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/Ex/SRAM/memcell_nbit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module memcell_nbit
+
+Top level modules:
+	memcell_nbit
+
+} {} {}} D:/CE/HDLDesign/Lab/Ex/SRAM/SRAM.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/Ex/SRAM/SRAM.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module SRAM
+
+Top level modules:
+	SRAM
+
+} {} {}} D:/CE/HDLDesign/Lab/Ex/SRAM/sram_1024add_8bit.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/Ex/SRAM/sram_1024add_8bit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module sram_1024add_8bit
+
+Top level modules:
+	sram_1024add_8bit
+
+} {} {}} D:/CE/HDLDesign/Lab/Ex/SRAM/Pre_SRAM/Testbench.v {1 {vlog -work work -stats=none {D:\CE\HDLDesign\Lab\Ex\SRAM\Pre_SRAM\Testbench.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Testbench
+
+Top level modules:
+	Testbench
+
+} {} {}} D:/CE/HDLDesign/Lab/Ex/SRAM/decoder_10bit.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/Ex/SRAM/decoder_10bit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module decoder_10bit
+
+Top level modules:
+	decoder_10bit
+
+} {} {}}

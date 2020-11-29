@@ -1,0 +1,397 @@
+m255
+K3
+z0
+13
+cModel Technology
+dD:\CE\HDLDesign\Lab\Stack_Pos
+vD_FF
+Z0 !s110 1603523564
+!i10b 1
+!s100 XTile:W<^h`S_FK=m@S^:3
+ICBJD^Ah`9G7aWgjQUfcen0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/CE/HDLDesign/Lab/Stack/Stack_Pos
+w1600507652
+8D:/CE/HDLDesign/Lab/Stack/D_FF.v
+FD:/CE/HDLDesign/Lab/Stack/D_FF.v
+L0 1
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1603523564.000000
+!s107 D:/CE/HDLDesign/Lab/Stack/D_FF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/Stack/D_FF.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -O0
+n@d_@f@f
+vd_latch
+R0
+!i10b 1
+!s100 o:9zh4GRWCO<PYz5TBaf41
+I1U;;NhgG9MhfScf9K[m391
+R1
+R2
+w1601738681
+8D:/CE/HDLDesign/Lab/Stack/d_latch.v
+FD:/CE/HDLDesign/Lab/Stack/d_latch.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/CE/HDLDesign/Lab/Stack/d_latch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/Stack/d_latch.v|
+!s101 -O0
+!i113 1
+R5
+vdecoder_10bit
+Z6 !s110 1603523565
+!i10b 1
+!s100 _4z;b>z=VBRajdMz`GWi83
+IEQFl:<4DNdiEZSkhjOV_a3
+R1
+R2
+w1603022430
+8D:/CE/HDLDesign/Lab/Stack/decoder_10bit.v
+FD:/CE/HDLDesign/Lab/Stack/decoder_10bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z7 !s108 1603523565.000000
+!s107 D:/CE/HDLDesign/Lab/Stack/decoder_10bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/Stack/decoder_10bit.v|
+!s101 -O0
+!i113 1
+R5
+vdecoder_4bit
+R0
+!i10b 1
+!s100 lEG1e`Y;gRWmGbj4^zTL;3
+ISgKRGlGEZ3F4k?Ld8z4e23
+R1
+R2
+w1602752526
+8D:/CE/HDLDesign/Lab/Stack/decoder_4bit.v
+FD:/CE/HDLDesign/Lab/Stack/decoder_4bit.v
+L0 16
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/CE/HDLDesign/Lab/Stack/decoder_4bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/Stack/decoder_4bit.v|
+!s101 -O0
+!i113 1
+R5
+vHAS
+R6
+!i10b 1
+!s100 SnEhl<P[E>4IM6H]9IT3_2
+IDE8cDlEA3l9@9La86lIRF2
+R1
+R2
+w1601888738
+8D:/CE/HDLDesign/Lab/Stack/HAS.v
+FD:/CE/HDLDesign/Lab/Stack/HAS.v
+L0 2
+R3
+r1
+!s85 0
+31
+R7
+!s107 D:/CE/HDLDesign/Lab/Stack/HAS.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/Stack/HAS.v|
+!s101 -O0
+!i113 1
+R5
+n@h@a@s
+vmemcell_1b
+R6
+!i10b 1
+!s100 c^mcfCdnknUcfK<4gH`P?1
+IhiWDE;2dAjnndAiS=8fPW3
+R1
+R2
+w1601740870
+8D:/CE/HDLDesign/Lab/Stack/memcell_1b.v
+FD:/CE/HDLDesign/Lab/Stack/memcell_1b.v
+L0 2
+R3
+r1
+!s85 0
+31
+R7
+!s107 D:/CE/HDLDesign/Lab/Stack/memcell_1b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/Stack/memcell_1b.v|
+!s101 -O0
+!i113 1
+R5
+vmencell_8b_ver2
+Z8 !s110 1603523566
+!i10b 1
+!s100 N0CSJnFzj6c3a`Yn^B1i[1
+IH^4ZDf60b[I[]`GCk=KW]0
+R1
+R2
+w1601947339
+8D:/CE/HDLDesign/Lab/Stack/mencell_8b_ver2.v
+FD:/CE/HDLDesign/Lab/Stack/mencell_8b_ver2.v
+L0 2
+R3
+r1
+!s85 0
+31
+R7
+!s107 D:/CE/HDLDesign/Lab/Stack/mencell_8b_ver2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/Stack/mencell_8b_ver2.v|
+!s101 -O0
+!i113 1
+R5
+vMux2_1
+R8
+!i10b 1
+!s100 =>a0WEm[4nPPk_e9lQcj`1
+I^4R^O=f21V;LCAgOVgUBP1
+R1
+R2
+w1600486500
+8D:/CE/HDLDesign/Lab/Stack/Mux2_1.v
+FD:/CE/HDLDesign/Lab/Stack/Mux2_1.v
+L0 2
+R3
+r1
+!s85 0
+31
+Z9 !s108 1603523566.000000
+!s107 D:/CE/HDLDesign/Lab/Stack/Mux2_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/Stack/Mux2_1.v|
+!s101 -O0
+!i113 1
+R5
+n@mux2_1
+vMux2_1_10bit
+R8
+!i10b 1
+!s100 a4UO;4AhV<b=dIz;kQPUe2
+IoMzJNo?WjIk@M:lSohd1a2
+R1
+R2
+w1603514594
+8D:/CE/HDLDesign/Lab/Stack/Mux2_1_10bit.v
+FD:/CE/HDLDesign/Lab/Stack/Mux2_1_10bit.v
+L0 4
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/CE/HDLDesign/Lab/Stack/Mux2_1_10bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/Stack/Mux2_1_10bit.v|
+!s101 -O0
+!i113 1
+R5
+n@mux2_1_10bit
+vSRAM_2x10_8bit
+Z10 !s110 1603523567
+!i10b 1
+!s100 QCozJi[^VL;5O]oJ`l<G@0
+I?3S_Vn==IZjkSXCPBm0DQ2
+R1
+R2
+w1602941722
+8D:/CE/HDLDesign/Lab/Stack/SRAM_2x10_8bit.v
+FD:/CE/HDLDesign/Lab/Stack/SRAM_2x10_8bit.v
+L0 7
+R3
+r1
+!s85 0
+31
+Z11 !s108 1603523567.000000
+!s107 D:/CE/HDLDesign/Lab/Stack/SRAM_2x10_8bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/Stack/SRAM_2x10_8bit.v|
+!s101 -O0
+!i113 1
+R5
+n@s@r@a@m_2x10_8bit
+vStack
+R10
+!i10b 1
+!s100 ki=Z1R5GiQ5IzM4f::HgL2
+ISlTNGL_e<<FCk:G5V7:M]2
+R1
+R2
+w1603522559
+8D:/CE/HDLDesign/Lab/Stack/Stack.v
+FD:/CE/HDLDesign/Lab/Stack/Stack.v
+L0 2
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/CE/HDLDesign/Lab/Stack/Stack.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/Stack/Stack.v|
+!s101 -O0
+!i113 1
+R5
+n@stack
+vTest_counter
+Z12 !s110 1603523569
+!i10b 1
+!s100 N4N5zeY2Hij^im<0fiP_J1
+IoLlgeKi5`<d0ekV=WfZB<2
+R1
+R2
+w1602857757
+8D:/CE/HDLDesign/Lab/Stack/Stack_Pos/Test_counter.v
+FD:/CE/HDLDesign/Lab/Stack/Stack_Pos/Test_counter.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z13 !s108 1603523569.000000
+!s107 D:/CE/HDLDesign/Lab/Stack/Stack_Pos/Test_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/Stack/Stack_Pos/Test_counter.v|
+!s101 -O0
+!i113 1
+R5
+n@test_counter
+vTest_stack
+!s110 1603523570
+!i10b 1
+!s100 A^8b>7fEmk3]LO^ajLX^G1
+IKcgUafgIooBd6SUL3]TL01
+R1
+R2
+w1603523560
+8D:/CE/HDLDesign/Lab/Stack/Stack_Pos/Test_stack.v
+FD:/CE/HDLDesign/Lab/Stack/Stack_Pos/Test_stack.v
+L0 3
+R3
+r1
+!s85 0
+31
+R13
+!s107 D:/CE/HDLDesign/Lab/Stack/Stack_Pos/Test_stack.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/Stack/Stack_Pos/Test_stack.v|
+!s101 -O0
+!i113 1
+R5
+n@test_stack
+vTestbench
+R12
+!i10b 1
+!s100 lX:>aS7^EgGTE859^UW=G2
+In<aF7fGcfSGn?GA?lYaTg3
+R1
+R2
+w1603511046
+8D:/CE/HDLDesign/Lab/Stack/Stack_Pos/Testbench.v
+FD:/CE/HDLDesign/Lab/Stack/Stack_Pos/Testbench.v
+L0 3
+R3
+r1
+!s85 0
+31
+R13
+!s107 D:/CE/HDLDesign/Lab/Stack/Stack_Pos/Testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/Stack/Stack_Pos/Testbench.v|
+!s101 -O0
+!i113 1
+R5
+n@testbench
+vTestHAS
+R10
+!i10b 1
+!s100 N<m_fM:O?E6=aHX2Mbn=O3
+I6P`cQhaC[8MaH<;fBX:Q:2
+R1
+R2
+w1602217604
+8D:/CE/HDLDesign/Lab/Stack/TestHAS.v
+FD:/CE/HDLDesign/Lab/Stack/TestHAS.v
+L0 6
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/CE/HDLDesign/Lab/Stack/TestHAS.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/Stack/TestHAS.v|
+!s101 -O0
+!i113 1
+R5
+n@test@h@a@s
+vTop_add1
+Z14 !s110 1603523568
+!i10b 1
+!s100 SfGZiUnC3DkoRUchYjm0J0
+I4lV@2K?5<n<XA:^YHBYh;3
+R1
+R2
+w1602749810
+8D:/CE/HDLDesign/Lab/Stack/Top_add1.v
+FD:/CE/HDLDesign/Lab/Stack/Top_add1.v
+L0 6
+R3
+r1
+!s85 0
+31
+Z15 !s108 1603523568.000000
+!s107 D:/CE/HDLDesign/Lab/Stack/Top_add1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/Stack/Top_add1.v|
+!s101 -O0
+!i113 1
+R5
+n@top_add1
+vTop_sub1
+R14
+!i10b 1
+!s100 dhdkRQCUU<eXOn]hgcS1b1
+Ij0k8^7SZLkIKa@Q7gQ[P_0
+R1
+R2
+w1602753080
+8D:/CE/HDLDesign/Lab/Stack/Top_sub1.v
+FD:/CE/HDLDesign/Lab/Stack/Top_sub1.v
+L0 6
+R3
+r1
+!s85 0
+31
+R15
+!s107 D:/CE/HDLDesign/Lab/Stack/Top_sub1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/Stack/Top_sub1.v|
+!s101 -O0
+!i113 1
+R5
+n@top_sub1
+vUpDown_Counter
+R14
+!i10b 1
+!s100 6Qb]A4jloL;Jj@9:lYmnX0
+IW@Ofla:@g`3^PolH1nlY42
+R1
+R2
+w1603514035
+8D:/CE/HDLDesign/Lab/Stack/UpDown_Counter.v
+FD:/CE/HDLDesign/Lab/Stack/UpDown_Counter.v
+L0 6
+R3
+r1
+!s85 0
+31
+R15
+!s107 D:/CE/HDLDesign/Lab/Stack/UpDown_Counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/Stack/UpDown_Counter.v|
+!s101 -O0
+!i113 1
+R5
+n@up@down_@counter

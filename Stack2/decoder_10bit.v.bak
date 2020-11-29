@@ -1,0 +1,21 @@
+module decoder_10bit (data_out,data_in);
+	input [9:0] data_in;
+	output [1023:0] data_out;
+	
+	wire [9:0] data_in ;
+	wire [1023:0] data_out;
+	
+	and inst[1023:0] (
+		data_out,
+		{  {512{data_in[3]}} ,  ~{512{data_in[3]}}},
+		{2{{256{data_in[2]}} ,  ~{256{data_in[2]}}}},
+		{4{{128{data_in[1]}} ,  ~{128{data_in[1]}}}},
+		{8{{64{data_in[2]}}  ,  ~{64{data_in[2]}}}},
+		{16{{32{data_in[2]}} ,  ~{32{data_in[2]}}}},
+		{32{{16{data_in[2]}} ,  ~{16{data_in[2]}}}},
+		{64{{8{data_in[2]}}  ,  ~{8{data_in[2]}}}},
+		{128{{4{data_in[2]}} ,  ~{4{data_in[2]}}}},
+		{256{{2{data_in[2]}} ,  ~{2{data_in[2]}}}},
+		{512{  {data_in[0]}    ,~{data_in[0]}}}
+		); 
+endmodule 

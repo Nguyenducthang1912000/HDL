@@ -1,0 +1,160 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/CE/HDLDesign/Lab/Ex/SRAM_2x10_8bit/Pre_SRAM
+vD_latch
+Z0 !s110 1603815225
+!i10b 1
+!s100 [lmUm]1?SR^RBdWWheTgD2
+IRPJF<F]DbW_WfP@ENK>f60
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/CE/HDLDesign/Lab/Ex/SRAM/Pre_SRAM
+w1603694970
+8D:/CE/HDLDesign/Lab/Ex/SRAM/D_latch.v
+FD:/CE/HDLDesign/Lab/Ex/SRAM/D_latch.v
+L0 1
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1603815225.000000
+!s107 D:/CE/HDLDesign/Lab/Ex/SRAM/D_latch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/Ex/SRAM/D_latch.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@d_latch
+vdecoder_10bit
+R0
+!i10b 1
+!s100 _4z;b>z=VBRajdMz`GWi83
+IK]4Ni;h:CF>]fnffIG`P31
+R1
+R2
+w1603696500
+8D:/CE/HDLDesign/Lab/Ex/SRAM/decoder_10bit.v
+FD:/CE/HDLDesign/Lab/Ex/SRAM/decoder_10bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/CE/HDLDesign/Lab/Ex/SRAM/decoder_10bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/Ex/SRAM/decoder_10bit.v|
+!s101 -O0
+!i113 1
+R5
+vmemcell
+R0
+!i10b 1
+!s100 ?40UHiP6E;KZEBM5=VTDz3
+IYM1^TBSD6Y@H5zf6o5==n1
+R1
+R2
+w1603695796
+8D:/CE/HDLDesign/Lab/Ex/SRAM/memcell.v
+FD:/CE/HDLDesign/Lab/Ex/SRAM/memcell.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/CE/HDLDesign/Lab/Ex/SRAM/memcell.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/Ex/SRAM/memcell.v|
+!s101 -O0
+!i113 1
+R5
+vmemcell_nbit
+R0
+!i10b 1
+!s100 AWc7;H8Nm7jT78kVdVOk33
+IBbD;SRT]Af<^7@?LgP5gO2
+R1
+R2
+w1603699303
+8D:/CE/HDLDesign/Lab/Ex/SRAM/memcell_nbit.v
+FD:/CE/HDLDesign/Lab/Ex/SRAM/memcell_nbit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/CE/HDLDesign/Lab/Ex/SRAM/memcell_nbit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/Ex/SRAM/memcell_nbit.v|
+!s101 -O0
+!i113 1
+R5
+vSRAM
+R0
+!i10b 1
+!s100 cSUadDZKMEXMZY119cHZ>3
+InO^UO^^h`S?3A]BPhK>GS0
+R1
+R2
+w1603699807
+8D:/CE/HDLDesign/Lab/Ex/SRAM/SRAM.v
+FD:/CE/HDLDesign/Lab/Ex/SRAM/SRAM.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/CE/HDLDesign/Lab/Ex/SRAM/SRAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/Ex/SRAM/SRAM.v|
+!s101 -O0
+!i113 1
+R5
+n@s@r@a@m
+vsram_1024add_8bit
+R0
+!i10b 1
+!s100 i@1DH3oE;U]K9i6z:[`Ga2
+IzNOJ9edE89GTTgRKiWJ1z1
+R1
+R2
+w1603699269
+8D:/CE/HDLDesign/Lab/Ex/SRAM/sram_1024add_8bit.v
+FD:/CE/HDLDesign/Lab/Ex/SRAM/sram_1024add_8bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/CE/HDLDesign/Lab/Ex/SRAM/sram_1024add_8bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/Ex/SRAM/sram_1024add_8bit.v|
+!s101 -O0
+!i113 1
+R5
+vTestbench
+R0
+!i10b 1
+!s100 5@V_7Nbj1eQJWbNW3HfbW3
+IeVcY:Y3zI3?G2lzKPh[R02
+R1
+R2
+w1603815221
+8D:\CE\HDLDesign\Lab\Ex\SRAM\Pre_SRAM\Testbench.v
+FD:\CE\HDLDesign\Lab\Ex\SRAM\Pre_SRAM\Testbench.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:\CE\HDLDesign\Lab\Ex\SRAM\Pre_SRAM\Testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\CE\HDLDesign\Lab\Ex\SRAM\Pre_SRAM\Testbench.v|
+!s101 -O0
+!i113 1
+R5
+n@testbench

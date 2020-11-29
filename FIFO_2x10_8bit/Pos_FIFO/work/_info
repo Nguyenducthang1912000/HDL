@@ -1,0 +1,314 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/CE/HDLDesign/Lab/Stack/Stack_Pos
+vComparator
+Z0 !s110 1603616374
+!i10b 1
+!s100 B=5;dT;?K;5Q3FUFM;7mI1
+IW9<P>=dZITYQoGJSSWDU92
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Pos_FIFO
+w1602945440
+8D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Comparator.v
+FD:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Comparator.v
+L0 2
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1603616374.000000
+!s107 D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Comparator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Comparator.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@comparator
+vD_FF
+R0
+!i10b 1
+!s100 XTile:W<^h`S_FK=m@S^:3
+IEcIYWPEFlWEoz0J_k[QQ]2
+R1
+R2
+w1600507652
+8D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/D_FF.v
+FD:/CE/HDLDesign/Lab/FIFO_2x10_8bit/D_FF.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/D_FF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/D_FF.v|
+!s101 -O0
+!i113 1
+R5
+n@d_@f@f
+vd_latch
+R0
+!i10b 1
+!s100 o:9zh4GRWCO<PYz5TBaf41
+IjZMCMK@T;XFd39C1PZWDQ1
+R1
+R2
+w1601738681
+8D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/d_latch.v
+FD:/CE/HDLDesign/Lab/FIFO_2x10_8bit/d_latch.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/d_latch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/d_latch.v|
+!s101 -O0
+!i113 1
+R5
+vdecoder_10bit
+R0
+!i10b 1
+!s100 _4z;b>z=VBRajdMz`GWi83
+IWXMe<AGSX^XVJmbzPEzDV2
+R1
+R2
+w1602752915
+8D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/decoder_10bit.v
+FD:/CE/HDLDesign/Lab/FIFO_2x10_8bit/decoder_10bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/decoder_10bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/decoder_10bit.v|
+!s101 -O0
+!i113 1
+R5
+vFIFO
+Z6 !s110 1603616375
+!i10b 1
+!s100 ATn]WToX><k^l1e8HT[o63
+IzD]mi:jkl?l4>W@cCFcCQ0
+R1
+R2
+w1603006826
+8D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/FIFO.v
+FD:/CE/HDLDesign/Lab/FIFO_2x10_8bit/FIFO.v
+L0 8
+R3
+r1
+!s85 0
+31
+Z7 !s108 1603616375.000000
+!s107 D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/FIFO.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/FIFO.v|
+!s101 -O0
+!i113 1
+R5
+n@f@i@f@o
+vHAS
+R6
+!i10b 1
+!s100 SnEhl<P[E>4IM6H]9IT3_2
+I>Z6X_?f;J1_fcLXN4Chg92
+R1
+R2
+w1601888738
+8D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/HAS.v
+FD:/CE/HDLDesign/Lab/FIFO_2x10_8bit/HAS.v
+L0 2
+R3
+r1
+!s85 0
+31
+R7
+!s107 D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/HAS.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/HAS.v|
+!s101 -O0
+!i113 1
+R5
+n@h@a@s
+vmemcell_1b
+R6
+!i10b 1
+!s100 c^mcfCdnknUcfK<4gH`P?1
+I=bB4NE1M_0jZm3QI[NK2`2
+R1
+R2
+w1601740870
+8D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/memcell_1b.v
+FD:/CE/HDLDesign/Lab/FIFO_2x10_8bit/memcell_1b.v
+L0 2
+R3
+r1
+!s85 0
+31
+R7
+!s107 D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/memcell_1b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/memcell_1b.v|
+!s101 -O0
+!i113 1
+R5
+vmencell_8b_ver2
+R6
+!i10b 1
+!s100 N0CSJnFzj6c3a`Yn^B1i[1
+IhgCKnELdn30eSglM`a]]51
+R1
+R2
+w1601947339
+8D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/mencell_8b_ver2.v
+FD:/CE/HDLDesign/Lab/FIFO_2x10_8bit/mencell_8b_ver2.v
+L0 2
+R3
+r1
+!s85 0
+31
+R7
+!s107 D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/mencell_8b_ver2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/mencell_8b_ver2.v|
+!s101 -O0
+!i113 1
+R5
+vMux2_1
+R6
+!i10b 1
+!s100 =>a0WEm[4nPPk_e9lQcj`1
+IlTD?MH<@J1D2WIM1UN9_^1
+R1
+R2
+w1600486500
+8D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Mux2_1.v
+FD:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Mux2_1.v
+L0 2
+R3
+r1
+!s85 0
+31
+R7
+!s107 D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Mux2_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Mux2_1.v|
+!s101 -O0
+!i113 1
+R5
+n@mux2_1
+vSRAM_2x10_8bit
+R6
+!i10b 1
+!s100 =`_:LfMV@aaf1X[0VHl[G3
+IXDXFBJeDT4S0Xfl0JgOMJ1
+R1
+R2
+w1602992077
+8D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/SRAM_2x10_8bit.v
+FD:/CE/HDLDesign/Lab/FIFO_2x10_8bit/SRAM_2x10_8bit.v
+L0 7
+R3
+r1
+!s85 0
+31
+R7
+!s107 D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/SRAM_2x10_8bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/SRAM_2x10_8bit.v|
+!s101 -O0
+!i113 1
+R5
+n@s@r@a@m_2x10_8bit
+vTest_counter
+Z8 !s110 1603616376
+!i10b 1
+!s100 F8PIe>lbhbX_:LY[zj?ON0
+IP@OoCm5F7b?G7N6h=ZlBe1
+R1
+R2
+w1603003187
+8D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Pos_FIFO/Test_counter.v
+FD:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Pos_FIFO/Test_counter.v
+L0 4
+R3
+r1
+!s85 0
+31
+Z9 !s108 1603616376.000000
+!s107 D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Pos_FIFO/Test_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Pos_FIFO/Test_counter.v|
+!s101 -O0
+!i113 1
+R5
+n@test_counter
+vTest_sram
+R8
+!i10b 1
+!s100 ?8i[>=dlW;WbQ>>Jc>UA30
+INSnY:_?4mnDSe^eDklLD03
+R1
+R2
+w1603003453
+8D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Pos_FIFO/Test_sram.v
+FD:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Pos_FIFO/Test_sram.v
+L0 4
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Pos_FIFO/Test_sram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Pos_FIFO/Test_sram.v|
+!s101 -O0
+!i113 1
+R5
+n@test_sram
+vTestbench
+R8
+!i10b 1
+!s100 O;X5nW<aEX4fW9z^R5VR@3
+IM>d2`Mm4Go8>DfRb=MJS^1
+R1
+R2
+w1603616367
+8D:\CE\HDLDesign\Lab\FIFO_2x10_8bit\Pos_FIFO\Testbench.v
+FD:\CE\HDLDesign\Lab\FIFO_2x10_8bit\Pos_FIFO\Testbench.v
+L0 2
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:\CE\HDLDesign\Lab\FIFO_2x10_8bit\Pos_FIFO\Testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\CE\HDLDesign\Lab\FIFO_2x10_8bit\Pos_FIFO\Testbench.v|
+!s101 -O0
+!i113 1
+R5
+n@testbench
+vUpDown_Counter
+R0
+!i10b 1
+!s100 8fbWUfT2X6]5?Smf=o[Fm1
+IkaTf<219F>Lo6D5F0VkJ@0
+R1
+R2
+w1602948969
+8D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/UpDown_Counter.v
+FD:/CE/HDLDesign/Lab/FIFO_2x10_8bit/UpDown_Counter.v
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/UpDown_Counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/UpDown_Counter.v|
+!s101 -O0
+!i113 1
+R5
+n@up@down_@counter

@@ -1,0 +1,13 @@
+module Cong(
+	input clk,
+	input[15:0] datain,
+	output[15:0] dataout
+);
+reg[15:0] Result;
+assign dataout = Result;
+always @(posedge clk)
+begin
+	for (int i=0;i<6;i++)
+		Result = Result + 1;
+end
+endmodule

@@ -1,0 +1,21 @@
+module memcell (
+   data_out,data_in,Read_select,Write_select 
+);  
+
+    input  data_in;
+    input  Read_select,Write_select;
+    output data_out;
+
+    wire   data_in,data_out;
+    wire Read_select,Write_select;
+
+    wire control,q_out;
+
+    and ins0 (control,Read_select,Write_select)
+
+    D_latch inst1
+    
+
+
+    
+endmodule 

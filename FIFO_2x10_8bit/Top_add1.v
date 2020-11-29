@@ -1,0 +1,31 @@
+//This's Top-Level Entity
+//module HAS (Cout,DFF,Din,En,Q);
+//module D_FF_rst (q,d,clk,rst);
+//module Mux2_1 (Out,In0,In1,S);
+
+module Top_add1 (Cout,Out,Din,En,clk,rst);
+	parameter N = 11;
+	
+	input Din,En,clk,rst;
+	
+	output       Cout;
+	output [N-1:0] Out;
+
+	wire   [N-1:0] Out;
+	wire         Cout;
+	
+
+	wire [N-2:0] C_Out  ;
+	wire [N-1:0] DFF    ;
+
+
+	HAS has[N-1:0] ({Cout,C_Out[N-2:0]},DFF[N-1:0],Din,{C_Out[N-2:0],En},Out[N-1:0]);
+
+	
+
+	D_FF_rst dff[N-1:0] (Out[N-1:0],DFF[N-1:0],clk,rst) ;
+
+	
+	
+endmodule
+	

@@ -1,0 +1,47 @@
+|MealyFSM
+clk => clk.IN1
+MealyFSM_i[0] => MealyFSM_i[0].IN2
+MealyFSM_i[1] => MealyFSM_i[1].IN2
+MealyFSM_i[2] => MealyFSM_i[2].IN2
+MealyFSM_i[3] => MealyFSM_i[3].IN2
+MealyFSM_o <= outFSM:outFSM_inst2.Data_o
+
+
+|MealyFSM|NextState:NextState_inst0
+CurrentState_i[0] => Equal0.IN31
+CurrentState_i[0] => Equal1.IN0
+CurrentState_i[0] => Equal2.IN31
+CurrentState_i[1] => Equal0.IN30
+CurrentState_i[1] => Equal1.IN31
+CurrentState_i[1] => Equal2.IN0
+Data_i[0] => Mux0.IN19
+Data_i[0] => Mux1.IN19
+Data_i[1] => Mux0.IN18
+Data_i[1] => Mux1.IN18
+Data_i[2] => Mux0.IN17
+Data_i[2] => Mux1.IN17
+Data_i[3] => Mux0.IN16
+Data_i[3] => Mux1.IN16
+Data_o[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Data_o[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MealyFSM|register:register_inst1
+clk => data_o[0]~reg0.CLK
+clk => data_o[1]~reg0.CLK
+data_i[0] => data_o[0]~reg0.DATAIN
+data_i[1] => data_o[1]~reg0.DATAIN
+data_o[0] <= data_o[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_o[1] <= data_o[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MealyFSM|outFSM:outFSM_inst2
+LastNo_i[0] => Equal0.IN1
+LastNo_i[1] => Equal0.IN0
+LastNo_i[2] => Equal0.IN3
+LastNo_i[3] => Equal0.IN2
+Data_i[0] => Equal1.IN1
+Data_i[1] => Equal1.IN0
+Data_o <= always0.DB_MAX_OUTPUT_PORT_TYPE
+
+

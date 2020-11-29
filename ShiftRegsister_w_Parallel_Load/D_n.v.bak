@@ -1,0 +1,32 @@
+module D_n (
+    Out,In,selection,I_right,I_left,clk;
+);
+    parameter N = 8 ;
+    input   [N-1:0] In;
+    input   [1:0]   selection;
+    input           clk,I_right,I_left;
+
+    output  [N-1:0] Out;
+
+    wire [N-1:0] In,Out;
+    wire         clk,I_right,I_left;
+    wire [1:0]   selection;
+
+    wire [N-1:0] d_in;
+
+    D_0 inst[N-1:0] (
+        .data_out(d_in[N-1:0]             ),
+        .in0      (Out[N-1:0]             ),
+        .in1(       In[N-1:0]             ),
+        .in2(     {Out[N-2:0], I_right}   ),
+        .in3({I_left,     Out[N-1:1]}     ),
+        .select(selection            )
+    );
+    D_Flipflop inst0 (
+        .data_q(Out[N-1:0]),
+        .data_qn(),
+        .data_in(d_in[N-1:0]),
+        .clk(clk)
+    );
+
+endmodule

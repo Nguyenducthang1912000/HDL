@@ -1,0 +1,15 @@
+F:/VerilogHDL/ModelSimTest/simulation/modelsim/Testbench.v {1 {vlog -work work {F:\VerilogHDL\ModelSimTest\simulation\modelsim\Testbench.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Testbench
+
+Top level modules:
+	Testbench
+
+} {} {}} F:/VerilogHDL/ModelSimTest/simulation/modelsim/ModelSimTest.vo {1 {vlog -work work F:/VerilogHDL/ModelSimTest/simulation/modelsim/ModelSimTest.vo
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ModelSimTest
+
+Top level modules:
+	ModelSimTest
+
+} {} {}}

@@ -1,0 +1,15 @@
+D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/simulation/modelsim/FIFO.vo {1 {vlog -work work D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/simulation/modelsim/FIFO.vo
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module FIFO
+
+Top level modules:
+	FIFO
+
+} {} {}} D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/simulation/modelsim/Testbench.v {1 {vlog -work work {D:\CE\HDLDesign\Lab\FIFO_2x10_8bit\simulation\modelsim\Testbench.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Testbench
+
+Top level modules:
+	Testbench
+
+} {} {}}

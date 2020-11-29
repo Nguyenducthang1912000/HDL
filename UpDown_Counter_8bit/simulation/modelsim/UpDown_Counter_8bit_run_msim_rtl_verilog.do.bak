@@ -1,0 +1,12 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/CE/HDLDesign/Lab/UpDown_Counter_8bit {D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/HAS.v}
+vlog -vlog01compat -work work +incdir+D:/CE/HDLDesign/Lab/UpDown_Counter_8bit {D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/Mux2_1.v}
+vlog -vlog01compat -work work +incdir+D:/CE/HDLDesign/Lab/UpDown_Counter_8bit {D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/TestHAS.v}
+vlog -vlog01compat -work work +incdir+D:/CE/HDLDesign/Lab/UpDown_Counter_8bit {D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/D_FF.v}
+

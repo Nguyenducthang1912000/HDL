@@ -1,0 +1,65 @@
+|Lab1
+clk => clk~0.IN1
+count_o[0] <= transfer:transfer_inst0.data_o
+count_o[1] <= transfer:transfer_inst0.data_o
+count_o[2] <= transfer:transfer_inst0.data_o
+count_o[3] <= transfer:transfer_inst0.data_o
+load => load~0.IN1
+value[0] => value[0]~3.IN1
+value[1] => value[1]~2.IN1
+value[2] => value[2]~1.IN1
+value[3] => value[3]~0.IN1
+
+
+|Lab1|register:register_inst0
+clk => data_o[0]~reg0.CLK
+clk => data_o[1]~reg0.CLK
+clk => data_o[2]~reg0.CLK
+data_i[0] => data_o[0]~reg0.DATAIN
+data_i[1] => data_o[1]~reg0.DATAIN
+data_i[2] => data_o[2]~reg0.DATAIN
+data_o[0] <= data_o[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_o[1] <= data_o[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_o[2] <= data_o[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1|Botang:Botang_inst0
+data_i[0] => Add0.IN6
+data_i[1] => Add0.IN5
+data_i[2] => Add0.IN4
+data_o[0] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+data_o[1] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+data_o[2] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1|transfer:transfer_inst0
+data_i[0] => Decoder0.IN2
+data_i[0] => Decoder1.IN1
+data_i[1] => Decoder0.IN1
+data_i[2] => Decoder0.IN0
+data_i[2] => Decoder1.IN0
+data_o[0] <= Decoder1.DB_MAX_OUTPUT_PORT_TYPE
+data_o[1] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+data_o[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+data_o[3] <= data_o~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1|LoadLogic:loadLogic_inst0
+load_i => qin_o~1.OUTPUTSELECT
+load_i => qin_o~2.OUTPUTSELECT
+load_i => qin_o~3.OUTPUTSELECT
+load_i => qin_o~4.OUTPUTSELECT
+load_i => qin_o~5.OUTPUTSELECT
+load_i => qin_o~6.OUTPUTSELECT
+value_i[0] => Decoder0.IN3
+value_i[1] => Decoder0.IN2
+value_i[2] => Decoder0.IN1
+value_i[3] => Decoder0.IN0
+data_in_i[0] => qin_o~6.DATAB
+data_in_i[1] => qin_o~5.DATAB
+data_in_i[2] => qin_o~4.DATAB
+qin_o[0] <= qin_o~6.DB_MAX_OUTPUT_PORT_TYPE
+qin_o[1] <= qin_o~5.DB_MAX_OUTPUT_PORT_TYPE
+qin_o[2] <= qin_o~4.DB_MAX_OUTPUT_PORT_TYPE
+
+

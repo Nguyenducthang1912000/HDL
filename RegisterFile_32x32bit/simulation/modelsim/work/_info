@@ -1,0 +1,65 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vRegisterFile_32x32bit
+!i10b 1
+!s100 _8:EAL[][5aHGHO^2l;b20
+IdaK7Ccjd?iai`T>[GW2?01
+Z1 V=n?AVCg`k5;A090i_EIG=3
+Z2 dF:\VerilogHDL\RegisterFile_32x32bit\simulation\modelsim
+w1604392428
+8F:/VerilogHDL/RegisterFile_32x32bit/simulation/modelsim/RegisterFile_32x32bit_fast.vo
+FF:/VerilogHDL/RegisterFile_32x32bit/simulation/modelsim/RegisterFile_32x32bit_fast.vo
+L0 31
+Z3 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1604392457.675000
+!s107 F:/VerilogHDL/RegisterFile_32x32bit/simulation/modelsim/RegisterFile_32x32bit_fast.vo|
+!s90 -reportprogress|300|-work|work|F:/VerilogHDL/RegisterFile_32x32bit/simulation/modelsim/RegisterFile_32x32bit_fast.vo|
+!s101 -O0
+Z4 o-work work -O0
+Z5 n@register@file_32x32bit
+vTestbench
+Z6 !s100 BIkB5CiXIPHKiS>Z6Qf`O1
+Z7 I^2fTP9ld_BBSW>d;6K<JT0
+Z8 VGdUiEZgaMiVEi@bgHJeE13
+R2
+Z9 w1604392253
+Z10 8F:/VerilogHDL/RegisterFile_32x32bit/simulation/modelsim/Testbench.v
+Z11 FF:/VerilogHDL/RegisterFile_32x32bit/simulation/modelsim/Testbench.v
+L0 3
+R3
+r1
+31
+Z12 !s90 -reportprogress|300|-work|work|F:/VerilogHDL/RegisterFile_32x32bit/simulation/modelsim/Testbench.v|
+R4
+Z13 n@testbench
+!i10b 1
+!s85 0
+Z14 !s108 1604392457.551000
+Z15 !s107 F:/VerilogHDL/RegisterFile_32x32bit/simulation/modelsim/Testbench.v|
+!s101 -O0
+vTestRF
+Z16 I@O9<lUTKCG>Pn]_e[1Fg[2
+Z17 Vn7OLfzVVV>;JbHfdVO]3P2
+R2
+Z18 w1604391935
+Z19 8F:/VerilogHDL/RegsisterFile_32x32bit2/simulation/modelsim/Testbench.v
+Z20 FF:/VerilogHDL/RegsisterFile_32x32bit2/simulation/modelsim/Testbench.v
+L0 3
+R3
+r1
+31
+R4
+Z21 n@test@r@f
+Z22 !s100 C@:c@BZLLbZh7l4MZnYO?0
+Z23 !s108 1604391980.173000
+Z24 !s107 F:/VerilogHDL/RegsisterFile_32x32bit2/simulation/modelsim/Testbench.v|
+Z25 !s90 -reportprogress|300|-work|work|F:/VerilogHDL/RegsisterFile_32x32bit2/simulation/modelsim/Testbench.v|
+!i10b 1
+!s85 0
+!s101 -O0

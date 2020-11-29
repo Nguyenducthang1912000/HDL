@@ -1,0 +1,50 @@
+D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_latch.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_latch.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module D_latch
+
+Top level modules:
+	D_latch
+
+} {} {}} D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_Flipflop.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_Flipflop.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module D_Flipflop
+
+Top level modules:
+	D_Flipflop
+
+} {} {}} D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_ff.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_ff.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module D_ff
+
+Top level modules:
+	D_ff
+
+} {} {}} D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_0.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_0.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module D_0
+
+Top level modules:
+	D_0
+
+} {} {}} D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/SrWPL.v {1 {vlog -work work -stats=none {D:\CE\HDLDesign\Lab\ShiftRegsister_w_Parallel_Load\SrWPL.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module SrWPL
+
+Top level modules:
+	SrWPL
+
+} {} {}} D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_n.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_n.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module D_n
+
+Top level modules:
+	D_n
+
+} {} {}} D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/Pre_SrWPL/Testbench.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/Pre_SrWPL/Testbench.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Testbench
+
+Top level modules:
+	Testbench
+
+} {} {}}

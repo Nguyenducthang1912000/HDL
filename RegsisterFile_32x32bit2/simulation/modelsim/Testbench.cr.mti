@@ -1,0 +1,21 @@
+D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/simulation/modelsim/RegsisterFile.vo {1 {vlog -work work D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/simulation/modelsim/RegsisterFile.vo
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module RegsisterFile
+
+Top level modules:
+	RegsisterFile
+
+} {} {}} D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/simulation/modelsim/Tesbench.v {1 {vlog -work work {D:\CE\HDLDesign\Lab\RegsisterFile_32x32bit\simulation\modelsim\Tesbench.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Testbench
+
+Top level modules:
+	Testbench
+
+} {} {}} D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/simulation/modelsim/Testbench.v {0 {vlog -work work D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/simulation/modelsim/Testbench.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "D:/CE/HDLDesign/Lab/RegsisterFile_32x32bit/simulation/modelsim/work". (Format: 4)
+
+** Error: Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}}

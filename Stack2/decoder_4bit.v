@@ -1,0 +1,30 @@
+
+//module decoder_10bit (data_out,data_in);
+//
+//	input [9:0] data_in;
+//	output [1023:0] data_out;
+//	
+//	wire [9:0] data_in ;
+//	wire [1023:0] data_out;
+//	
+//	and inst[1023:0] 
+//	
+//	
+//endmodule
+
+
+module decoder_4bit (data_out,data_in);
+	input [3:0] data_in;
+	output [15:0] data_out;
+	
+	wire [3:0] data_in ;
+	wire [15:0] data_out;
+	
+	and inst[15:0] (
+		data_out,
+		{  {8{data_in[3]}} ,  ~{8{data_in[3]}}},
+		{2{{4{data_in[2]}} ,~{4{data_in[2]}}}},
+		{4{{2{data_in[1]}} ,~{2{data_in[1]}}}},
+		{8{  {data_in[0]}    ,~{data_in[0]}}}
+		); 
+endmodule 

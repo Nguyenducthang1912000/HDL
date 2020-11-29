@@ -1,0 +1,17 @@
+module D_Flipflop (
+    data_q,data_qn,data_in,clk
+);
+    input data_in,clk;
+    output data_q,data_qn;
+
+    wire data_in,clk,data_q,data_qn;
+
+    wire inst0_out,inst1_out;
+
+    nand inst0 (inst0_out,clk,data_in);
+    nand inst1 (inst1_out,clk,~data_in);
+    nand inst2 (data_q,inst0_out,data_qn);
+    nand inst3 (data_qn,inst1_out,data_q);
+    
+    
+endmodule

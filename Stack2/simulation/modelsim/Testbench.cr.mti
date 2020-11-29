@@ -1,0 +1,17 @@
+D:/CE/HDLDesign/Lab/Stack/simulation/modelsim/Testbench.v {2 {vlog -work work D:/CE/HDLDesign/Lab/Stack/simulation/modelsim/Testbench.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+** Warning: D:/CE/HDLDesign/Lab/Stack/simulation/modelsim/Testbench.v(1): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+-- Compiling module Testbench
+
+Top level modules:
+	Testbench
+
+} {} {}} D:/CE/HDLDesign/Lab/Stack/simulation/modelsim/Stack.vo {1 {vlog -work work D:/CE/HDLDesign/Lab/Stack/simulation/modelsim/Stack.vo
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Stack
+
+Top level modules:
+	Stack
+
+} {} {}}

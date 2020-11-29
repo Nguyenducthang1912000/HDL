@@ -1,0 +1,266 @@
+Simulator report for UpDown_Counter_8bit
+Thu Sep 24 16:22:17 2020
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 85 nodes     ;
+; Simulation Coverage         ;      64.71 % ;
+; Total Number of Transitions ; 605          ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                                                                ;
++--------------------------------------------------------------------------------------------+------------------------------------------------------+---------------+
+; Option                                                                                     ; Setting                                              ; Default Value ;
++--------------------------------------------------------------------------------------------+------------------------------------------------------+---------------+
+; Simulation mode                                                                            ; Functional                                           ; Timing        ;
+; Start time                                                                                 ; 0 ns                                                 ; 0 ns          ;
+; Simulation results format                                                                  ; VWF                                                  ;               ;
+; Vector input source                                                                        ; D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/Waveform.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                                                   ; On            ;
+; Check outputs                                                                              ; Off                                                  ; Off           ;
+; Report simulation coverage                                                                 ; On                                                   ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                                                   ; On            ;
+; Display missing 1-value coverage report                                                    ; On                                                   ; On            ;
+; Display missing 0-value coverage report                                                    ; On                                                   ; On            ;
+; Detect setup and hold time violations                                                      ; Off                                                  ; Off           ;
+; Detect glitches                                                                            ; Off                                                  ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                                                  ; Off           ;
+; Generate Signal Activity File                                                              ; Off                                                  ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                                                  ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                                                  ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                                                   ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE                                           ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                                                  ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                                                  ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto                                                 ; Auto          ;
++--------------------------------------------------------------------------------------------+------------------------------------------------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II 64-Bit to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      64.71 % ;
+; Total nodes checked                                 ; 85           ;
+; Total output ports checked                          ; 85           ;
+; Total output ports with complete 1/0-value coverage ; 55           ;
+; Total output ports with no 1/0-value coverage       ; 19           ;
+; Total output ports with no 1-value coverage         ; 21           ;
+; Total output ports with no 0-value coverage         ; 28           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++--------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                    ;
++------------------------------+------------------------------+------------------+
+; Node Name                    ; Output Port Name             ; Output Port Type ;
++------------------------------+------------------------------+------------------+
+; |TestHAS|Cout                ; |TestHAS|Cout                ; pin_out          ;
+; |TestHAS|Out[0]              ; |TestHAS|Out[0]              ; pin_out          ;
+; |TestHAS|Out[1]              ; |TestHAS|Out[1]              ; pin_out          ;
+; |TestHAS|Out[2]              ; |TestHAS|Out[2]              ; pin_out          ;
+; |TestHAS|Out[3]              ; |TestHAS|Out[3]              ; pin_out          ;
+; |TestHAS|clk                 ; |TestHAS|clk                 ; out              ;
+; |TestHAS|Load                ; |TestHAS|Load                ; out              ;
+; |TestHAS|D_FF:dff[3]|q       ; |TestHAS|D_FF:dff[3]|q       ; regout           ;
+; |TestHAS|D_FF:dff[2]|q       ; |TestHAS|D_FF:dff[2]|q       ; regout           ;
+; |TestHAS|D_FF:dff[1]|q       ; |TestHAS|D_FF:dff[1]|q       ; regout           ;
+; |TestHAS|D_FF:dff[0]|q       ; |TestHAS|D_FF:dff[0]|q       ; regout           ;
+; |TestHAS|Mux2_1:mux[7]|nand1 ; |TestHAS|Mux2_1:mux[7]|nand1 ; out0             ;
+; |TestHAS|Mux2_1:mux[7]|nand3 ; |TestHAS|Mux2_1:mux[7]|nand3 ; out0             ;
+; |TestHAS|Mux2_1:mux[6]|nand1 ; |TestHAS|Mux2_1:mux[6]|nand1 ; out0             ;
+; |TestHAS|Mux2_1:mux[6]|nand3 ; |TestHAS|Mux2_1:mux[6]|nand3 ; out0             ;
+; |TestHAS|Mux2_1:mux[5]|nand1 ; |TestHAS|Mux2_1:mux[5]|nand1 ; out0             ;
+; |TestHAS|Mux2_1:mux[5]|nand3 ; |TestHAS|Mux2_1:mux[5]|nand3 ; out0             ;
+; |TestHAS|Mux2_1:mux[4]|nand1 ; |TestHAS|Mux2_1:mux[4]|nand1 ; out0             ;
+; |TestHAS|Mux2_1:mux[4]|nand3 ; |TestHAS|Mux2_1:mux[4]|nand3 ; out0             ;
+; |TestHAS|Mux2_1:mux[3]|nand1 ; |TestHAS|Mux2_1:mux[3]|nand1 ; out0             ;
+; |TestHAS|Mux2_1:mux[3]|nand3 ; |TestHAS|Mux2_1:mux[3]|nand3 ; out0             ;
+; |TestHAS|Mux2_1:mux[2]|nand1 ; |TestHAS|Mux2_1:mux[2]|nand1 ; out0             ;
+; |TestHAS|Mux2_1:mux[2]|nand3 ; |TestHAS|Mux2_1:mux[2]|nand3 ; out0             ;
+; |TestHAS|Mux2_1:mux[1]|nand1 ; |TestHAS|Mux2_1:mux[1]|nand1 ; out0             ;
+; |TestHAS|Mux2_1:mux[1]|nand3 ; |TestHAS|Mux2_1:mux[1]|nand3 ; out0             ;
+; |TestHAS|Mux2_1:mux[0]|nand1 ; |TestHAS|Mux2_1:mux[0]|nand1 ; out0             ;
+; |TestHAS|Mux2_1:mux[0]|nand3 ; |TestHAS|Mux2_1:mux[0]|nand3 ; out0             ;
+; |TestHAS|HAS:has[7]|and1     ; |TestHAS|HAS:has[7]|and1     ; out0             ;
+; |TestHAS|HAS:has[7]|xor1     ; |TestHAS|HAS:has[7]|xor1     ; out0             ;
+; |TestHAS|HAS:has[7]|or1      ; |TestHAS|HAS:has[7]|or1      ; out0             ;
+; |TestHAS|HAS:has[6]|and1     ; |TestHAS|HAS:has[6]|and1     ; out0             ;
+; |TestHAS|HAS:has[6]|xor1     ; |TestHAS|HAS:has[6]|xor1     ; out0             ;
+; |TestHAS|HAS:has[6]|or1      ; |TestHAS|HAS:has[6]|or1      ; out0             ;
+; |TestHAS|HAS:has[5]|and1     ; |TestHAS|HAS:has[5]|and1     ; out0             ;
+; |TestHAS|HAS:has[5]|xor1     ; |TestHAS|HAS:has[5]|xor1     ; out0             ;
+; |TestHAS|HAS:has[5]|or1      ; |TestHAS|HAS:has[5]|or1      ; out0             ;
+; |TestHAS|HAS:has[4]|and1     ; |TestHAS|HAS:has[4]|and1     ; out0             ;
+; |TestHAS|HAS:has[4]|xor1     ; |TestHAS|HAS:has[4]|xor1     ; out0             ;
+; |TestHAS|HAS:has[4]|or1      ; |TestHAS|HAS:has[4]|or1      ; out0             ;
+; |TestHAS|HAS:has[3]|and1     ; |TestHAS|HAS:has[3]|and1     ; out0             ;
+; |TestHAS|HAS:has[3]|and2     ; |TestHAS|HAS:has[3]|and2     ; out0             ;
+; |TestHAS|HAS:has[3]|xor1     ; |TestHAS|HAS:has[3]|xor1     ; out0             ;
+; |TestHAS|HAS:has[3]|or1      ; |TestHAS|HAS:has[3]|or1      ; out0             ;
+; |TestHAS|HAS:has[2]|and1     ; |TestHAS|HAS:has[2]|and1     ; out0             ;
+; |TestHAS|HAS:has[2]|and2     ; |TestHAS|HAS:has[2]|and2     ; out0             ;
+; |TestHAS|HAS:has[2]|xor1     ; |TestHAS|HAS:has[2]|xor1     ; out0             ;
+; |TestHAS|HAS:has[2]|or1      ; |TestHAS|HAS:has[2]|or1      ; out0             ;
+; |TestHAS|HAS:has[1]|and1     ; |TestHAS|HAS:has[1]|and1     ; out0             ;
+; |TestHAS|HAS:has[1]|and2     ; |TestHAS|HAS:has[1]|and2     ; out0             ;
+; |TestHAS|HAS:has[1]|xor1     ; |TestHAS|HAS:has[1]|xor1     ; out0             ;
+; |TestHAS|HAS:has[1]|or1      ; |TestHAS|HAS:has[1]|or1      ; out0             ;
+; |TestHAS|HAS:has[0]|and1     ; |TestHAS|HAS:has[0]|and1     ; out0             ;
+; |TestHAS|HAS:has[0]|and2     ; |TestHAS|HAS:has[0]|and2     ; out0             ;
+; |TestHAS|HAS:has[0]|xor1     ; |TestHAS|HAS:has[0]|xor1     ; out0             ;
+; |TestHAS|HAS:has[0]|or1      ; |TestHAS|HAS:has[0]|or1      ; out0             ;
++------------------------------+------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++--------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                       ;
++------------------------------+------------------------------+------------------+
+; Node Name                    ; Output Port Name             ; Output Port Type ;
++------------------------------+------------------------------+------------------+
+; |TestHAS|En                  ; |TestHAS|En                  ; out              ;
+; |TestHAS|In[0]               ; |TestHAS|In[0]               ; out              ;
+; |TestHAS|In[1]               ; |TestHAS|In[1]               ; out              ;
+; |TestHAS|In[2]               ; |TestHAS|In[2]               ; out              ;
+; |TestHAS|In[3]               ; |TestHAS|In[3]               ; out              ;
+; |TestHAS|In[4]               ; |TestHAS|In[4]               ; out              ;
+; |TestHAS|In[5]               ; |TestHAS|In[5]               ; out              ;
+; |TestHAS|In[6]               ; |TestHAS|In[6]               ; out              ;
+; |TestHAS|In[7]               ; |TestHAS|In[7]               ; out              ;
+; |TestHAS|Mux2_1:mux[7]|nand2 ; |TestHAS|Mux2_1:mux[7]|nand2 ; out0             ;
+; |TestHAS|Mux2_1:mux[6]|nand2 ; |TestHAS|Mux2_1:mux[6]|nand2 ; out0             ;
+; |TestHAS|Mux2_1:mux[5]|nand2 ; |TestHAS|Mux2_1:mux[5]|nand2 ; out0             ;
+; |TestHAS|Mux2_1:mux[4]|nand2 ; |TestHAS|Mux2_1:mux[4]|nand2 ; out0             ;
+; |TestHAS|Mux2_1:mux[3]|nand2 ; |TestHAS|Mux2_1:mux[3]|nand2 ; out0             ;
+; |TestHAS|Mux2_1:mux[2]|nand2 ; |TestHAS|Mux2_1:mux[2]|nand2 ; out0             ;
+; |TestHAS|Mux2_1:mux[1]|nand2 ; |TestHAS|Mux2_1:mux[1]|nand2 ; out0             ;
+; |TestHAS|Mux2_1:mux[0]|nand2 ; |TestHAS|Mux2_1:mux[0]|nand2 ; out0             ;
+; |TestHAS|HAS:has[7]|and2     ; |TestHAS|HAS:has[7]|and2     ; out0             ;
+; |TestHAS|HAS:has[6]|and2     ; |TestHAS|HAS:has[6]|and2     ; out0             ;
+; |TestHAS|HAS:has[5]|and2     ; |TestHAS|HAS:has[5]|and2     ; out0             ;
+; |TestHAS|HAS:has[4]|and2     ; |TestHAS|HAS:has[4]|and2     ; out0             ;
++------------------------------+------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++--------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                       ;
++------------------------------+------------------------------+------------------+
+; Node Name                    ; Output Port Name             ; Output Port Type ;
++------------------------------+------------------------------+------------------+
+; |TestHAS|Out[4]              ; |TestHAS|Out[4]              ; pin_out          ;
+; |TestHAS|Out[5]              ; |TestHAS|Out[5]              ; pin_out          ;
+; |TestHAS|Out[6]              ; |TestHAS|Out[6]              ; pin_out          ;
+; |TestHAS|Out[7]              ; |TestHAS|Out[7]              ; pin_out          ;
+; |TestHAS|Din                 ; |TestHAS|Din                 ; out              ;
+; |TestHAS|En                  ; |TestHAS|En                  ; out              ;
+; |TestHAS|In[0]               ; |TestHAS|In[0]               ; out              ;
+; |TestHAS|In[1]               ; |TestHAS|In[1]               ; out              ;
+; |TestHAS|In[3]               ; |TestHAS|In[3]               ; out              ;
+; |TestHAS|In[4]               ; |TestHAS|In[4]               ; out              ;
+; |TestHAS|In[5]               ; |TestHAS|In[5]               ; out              ;
+; |TestHAS|In[6]               ; |TestHAS|In[6]               ; out              ;
+; |TestHAS|In[7]               ; |TestHAS|In[7]               ; out              ;
+; |TestHAS|D_FF:dff[7]|q       ; |TestHAS|D_FF:dff[7]|q       ; regout           ;
+; |TestHAS|D_FF:dff[6]|q       ; |TestHAS|D_FF:dff[6]|q       ; regout           ;
+; |TestHAS|D_FF:dff[5]|q       ; |TestHAS|D_FF:dff[5]|q       ; regout           ;
+; |TestHAS|D_FF:dff[4]|q       ; |TestHAS|D_FF:dff[4]|q       ; regout           ;
+; |TestHAS|Mux2_1:mux[7]|nand2 ; |TestHAS|Mux2_1:mux[7]|nand2 ; out0             ;
+; |TestHAS|Mux2_1:mux[6]|nand2 ; |TestHAS|Mux2_1:mux[6]|nand2 ; out0             ;
+; |TestHAS|Mux2_1:mux[5]|nand2 ; |TestHAS|Mux2_1:mux[5]|nand2 ; out0             ;
+; |TestHAS|Mux2_1:mux[4]|nand2 ; |TestHAS|Mux2_1:mux[4]|nand2 ; out0             ;
+; |TestHAS|Mux2_1:mux[3]|nand2 ; |TestHAS|Mux2_1:mux[3]|nand2 ; out0             ;
+; |TestHAS|Mux2_1:mux[1]|nand2 ; |TestHAS|Mux2_1:mux[1]|nand2 ; out0             ;
+; |TestHAS|Mux2_1:mux[0]|nand2 ; |TestHAS|Mux2_1:mux[0]|nand2 ; out0             ;
+; |TestHAS|HAS:has[7]|and2     ; |TestHAS|HAS:has[7]|and2     ; out0             ;
+; |TestHAS|HAS:has[6]|and2     ; |TestHAS|HAS:has[6]|and2     ; out0             ;
+; |TestHAS|HAS:has[5]|and2     ; |TestHAS|HAS:has[5]|and2     ; out0             ;
+; |TestHAS|HAS:has[4]|and2     ; |TestHAS|HAS:has[4]|and2     ; out0             ;
++------------------------------+------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Simulator
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Thu Sep 24 16:22:17 2020
+Info: Command: quartus_sim --simulation_results_format=VWF UpDown_Counter_8bit -c UpDown_Counter_8bit
+Info (324025): Using vector source file "D:/CE/HDLDesign/Lab/UpDown_Counter_8bit/Waveform.vwf"
+Info (310003): Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info (310004): Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info (310002): Simulation partitioned into 1 sub-simulations
+Info (328053): Simulation coverage is      64.71 %
+Info (328052): Number of transitions in simulation is 605
+Info (324045): Vector file UpDown_Counter_8bit.sim.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II 64-Bit Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4449 megabytes
+    Info: Processing ended: Thu Sep 24 16:22:17 2020
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+

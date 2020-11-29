@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at TestHAS.v(22): object "DFF" differs only in case from object "dff" in the same scope
+Info (10281): Verilog HDL Declaration information at UpDown_Counter.v(19): object "DFF" differs only in case from object "dff" in the same scope

@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\CE\HDLDesign\Lab\Stack\Stack_Pos
+vFIFO
+Z1 IW066fL9`zekg;H6TCYaDS1
+Z2 VL8f@S;;bLb?W_C03e8g?Z1
+Z3 dD:\CE\HDLDesign\Lab\FIFO_2x10_8bit\simulation\modelsim
+Z4 w1602572493
+Z5 8D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/simulation/modelsim/FIFO.vo
+Z6 FD:/CE/HDLDesign/Lab/FIFO_2x10_8bit/simulation/modelsim/FIFO.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@f@i@f@o
+!i10b 1
+Z10 !s100 1[@5LQaO^;ROVI_ik8?:k3
+!s85 0
+Z11 !s108 1603528400.015000
+Z12 !s107 D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/simulation/modelsim/FIFO.vo|
+Z13 !s90 -reportprogress|300|-work|work|D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/simulation/modelsim/FIFO.vo|
+!s101 -O0
+vTestbench
+!i10b 1
+!s100 CIT5^WcF1m:g7;mZkl67i0
+ISCl]S30JBRRh[LI0OVh>^0
+VGdUiEZgaMiVEi@bgHJeE13
+R3
+w1603528397
+8D:\CE\HDLDesign\Lab\FIFO_2x10_8bit\simulation\modelsim\Testbench.v
+FD:\CE\HDLDesign\Lab\FIFO_2x10_8bit\simulation\modelsim\Testbench.v
+L0 2
+R7
+r1
+!s85 0
+31
+!s108 1603528400.390000
+!s107 D:\CE\HDLDesign\Lab\FIFO_2x10_8bit\simulation\modelsim\Testbench.v|
+!s90 -reportprogress|300|-work|work|D:\CE\HDLDesign\Lab\FIFO_2x10_8bit\simulation\modelsim\Testbench.v|
+!s101 -O0
+R8
+n@testbench

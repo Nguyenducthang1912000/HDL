@@ -1,0 +1,124 @@
+D:/CE/HDLDesign/Lab/Stack/Mux2_1.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/Stack/Mux2_1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux2_1
+
+Top level modules:
+	Mux2_1
+
+} {} {}} D:/CE/HDLDesign/Lab/Stack/TestHAS.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/Stack/TestHAS.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module TestHAS
+
+Top level modules:
+	TestHAS
+
+} {} {}} D:/CE/HDLDesign/Lab/Stack/decoder_10bit.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/Stack/decoder_10bit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module decoder_10bit
+
+Top level modules:
+	decoder_10bit
+
+} {} {}} D:/CE/HDLDesign/Lab/Stack/Stack.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/Stack/Stack.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Stack
+
+Top level modules:
+	Stack
+
+} {} {}} D:/CE/HDLDesign/Lab/Stack/Stack_Pos/Testbench.v {2 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/Stack/Stack_Pos/Testbench.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+** Warning: D:/CE/HDLDesign/Lab/Stack/Stack_Pos/Testbench.v(1): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+-- Compiling module Testbench
+
+Top level modules:
+	Testbench
+
+} {} {}} D:/CE/HDLDesign/Lab/Stack/D_FF.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/Stack/D_FF.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module D_FF
+
+Top level modules:
+	D_FF
+
+} {} {}} D:/CE/HDLDesign/Lab/Stack/mencell_8b_ver2.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/Stack/mencell_8b_ver2.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mencell_8b_ver2
+
+Top level modules:
+	mencell_8b_ver2
+
+} {} {}} D:/CE/HDLDesign/Lab/Stack/memcell_1b.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/Stack/memcell_1b.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module memcell_1b
+
+Top level modules:
+	memcell_1b
+
+} {} {}} D:/CE/HDLDesign/Lab/Stack/SRAM_2x10_8bit.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/Stack/SRAM_2x10_8bit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module SRAM_2x10_8bit
+
+Top level modules:
+	SRAM_2x10_8bit
+
+} {} {}} D:/CE/HDLDesign/Lab/Stack/HAS.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/Stack/HAS.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module HAS
+
+Top level modules:
+	HAS
+
+} {} {}} D:/CE/HDLDesign/Lab/Stack/UpDown_Counter.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/Stack/UpDown_Counter.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module UpDown_Counter
+
+Top level modules:
+	UpDown_Counter
+
+} {} {}} D:/CE/HDLDesign/Lab/Stack/Top_add1.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/Stack/Top_add1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Top_add1
+
+Top level modules:
+	Top_add1
+
+} {} {}} D:/CE/HDLDesign/Lab/Stack/Top_sub1.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/Stack/Top_sub1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Top_sub1
+
+Top level modules:
+	Top_sub1
+
+} {} {}} D:/CE/HDLDesign/Lab/Stack/Stack_Pos/Test_counter.v {2 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/Stack/Stack_Pos/Test_counter.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+** Warning: D:/CE/HDLDesign/Lab/Stack/Stack_Pos/Test_counter.v(1): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+-- Compiling module Test_counter
+
+Top level modules:
+	Test_counter
+
+} {} {}} D:/CE/HDLDesign/Lab/Stack/d_latch.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/Stack/d_latch.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module d_latch
+
+Top level modules:
+	d_latch
+
+} {} {}} D:/CE/HDLDesign/Lab/Stack/decoder_4bit.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/Stack/decoder_4bit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module decoder_4bit
+
+Top level modules:
+	decoder_4bit
+
+} {} {}} D:/CE/HDLDesign/Lab/Stack/Mux2_1_10bit.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/Stack/Mux2_1_10bit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux2_1_10bit
+
+Top level modules:
+	Mux2_1_10bit
+
+} {} {}}

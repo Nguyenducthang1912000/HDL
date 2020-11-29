@@ -1,0 +1,12 @@
+//module HAS (Cout,DFF,Din,En,Q);
+
+module TestHAS (Cout,DFF,Din,En,Q);
+	input Din,En,Q;
+	output Cout,DFF;
+	wire Cout0,Cout1;
+	wire DFF0,DFF1;
+	wire	Q1
+	HAS has0 (Cout0,DFF0,Din,En,Q);
+	HAS has1 (Cout1,DFF1,Din,Cout0,Q1);
+endmodule
+	

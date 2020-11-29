@@ -1,0 +1,25 @@
+module Counter(clk,count_o);
+input 	    clk;
+output [3:0] count_o;
+
+//declare data type for ports
+wire 		  clk;
+wire [3:0] count_o;
+//declare internal signal
+wire [2:0] incr_t;
+wire [2:0] state_t
+//Functional description
+register register_inst0(
+		.clk(clk),
+		.data_i(incr_t),
+		.data_o(state_t)
+	);
+Botang Botang_inst0(
+		.data_i(state_t),
+		.data_o(incr_t)
+	);
+transfer transfer_inst0(
+		.data_i(state_t),
+		.data_o(count_o)
+);
+endmodule

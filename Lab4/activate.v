@@ -1,0 +1,12 @@
+module activate (DATA_IN,DATA_OUT,ENABLE);
+input[5:0] DATA_IN;
+input ENABLE;
+output[5:0] DATA_OUT;
+reg[5:0] DATA_OUT;
+always @(*)begin
+	if(ENABLE == 1)
+		DATA_OUT = DATA_IN;
+	else
+		DATA_OUT = 0;
+end
+endmodule

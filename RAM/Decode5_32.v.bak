@@ -1,0 +1,9 @@
+module Decode5_32 (B,C);
+//input port declarations
+input [4:0] B;
+//output port declarations
+output [31:0] C;
+Decode u0 (
+.B[0](A[0])
+);
+endmodule;

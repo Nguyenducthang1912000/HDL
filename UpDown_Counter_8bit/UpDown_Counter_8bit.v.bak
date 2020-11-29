@@ -1,0 +1,9 @@
+
+parameter N = 8;
+
+module UpDown_Couter_8bit (Carry_Out,Out,En,D,Input,Load,clk);
+	input clk,En,D,Load;
+	reg [(N-1)..0] Input;
+	wire [(N-1)..0] Out;
+	
+endmodule 

@@ -1,0 +1,65 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\CE\HDLDesign\Lab\RegsisterFile_32x32bit\simulation\modelsim
+vStack
+Z1 !s100 D2eRcba:1Q`S6bOK=]4BG1
+Z2 IokVVLfg?lj[QWKek3Hzn53
+Z3 VMLMnB0;8D_SWnzmhM4_Kd1
+Z4 dD:\CE\HDLDesign\Lab\Stack\simulation\modelsim
+Z5 w1603506368
+Z6 8D:/CE/HDLDesign/Lab/Stack/simulation/modelsim/Stack.vo
+Z7 FD:/CE/HDLDesign/Lab/Stack/simulation/modelsim/Stack.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|D:/CE/HDLDesign/Lab/Stack/simulation/modelsim/Stack.vo|
+Z10 o-work work -O0
+Z11 n@stack
+!i10b 1
+!s85 0
+Z12 !s108 1603507274.065000
+Z13 !s107 D:/CE/HDLDesign/Lab/Stack/simulation/modelsim/Stack.vo|
+!s101 -O0
+vTest_stack
+Z14 If4jV1K`?B9c0b2HeL3T;g3
+Z15 Vec1z@464:3hBLGk9niFSl3
+R4
+Z16 w1603353559
+Z17 8D:\CE\HDLDesign\Lab\Stack\simulation\modelsim\Testbench.v
+Z18 FD:\CE\HDLDesign\Lab\Stack\simulation\modelsim\Testbench.v
+L0 3
+R8
+r1
+31
+R10
+Z19 n@test_stack
+Z20 !s100 EO:^4VY6l32AoYbZP57=H2
+Z21 !s108 1603353598.396000
+Z22 !s107 D:\CE\HDLDesign\Lab\Stack\simulation\modelsim\Testbench.v|
+Z23 !s90 -reportprogress|300|-work|work|D:\CE\HDLDesign\Lab\Stack\simulation\modelsim\Testbench.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vTestbench
+!i10b 1
+!s100 2H;^CMFQ]dYfg?0KMz13O3
+IJV6NY9><4z0lD_h_:N_k22
+Z24 VGdUiEZgaMiVEi@bgHJeE13
+R4
+w1603507263
+Z25 8D:/CE/HDLDesign/Lab/Stack/simulation/modelsim/Testbench.v
+Z26 FD:/CE/HDLDesign/Lab/Stack/simulation/modelsim/Testbench.v
+L0 3
+R8
+r1
+!s85 0
+31
+!s108 1603507275.621000
+!s107 D:/CE/HDLDesign/Lab/Stack/simulation/modelsim/Testbench.v|
+Z27 !s90 -reportprogress|300|-work|work|D:/CE/HDLDesign/Lab/Stack/simulation/modelsim/Testbench.v|
+!s101 -O0
+R10
+Z28 n@testbench

@@ -1,0 +1,30 @@
+module test (CLK,PCSrc,RegSrc,RegEn,ALUSrc,ALUOp,DmemWr,WrSrc);
+output PCSrc,RegSrc,RegEn,ALUSrc,DmemWr,WrSrc;
+output [3:0] ALUOp;
+//wire 
+wire[5:0] PCtoIMEM;
+wire[4:0] IMEMtoPC;
+wire[5:0] Inc2;
+Processer_Controller inst0(
+.Opcode(IMEMtoPC),
+.PCSrc(PCSrc),
+.RegSrc(RegSrc),
+.ALUSrc(ALUSrc),
+.DmemWr(DmemWr),
+.WrSrc(WrSrc),
+.ALUOp(ALUOp)
+);
+PC inst1(
+.CLK(CLK),
+.DATA_OUT(PCtoIMEM),
+.DATA_IN(Inc2)
+);
+IMEM inst2(
+.addr(PCtoIMEM[5:1]),
+.q(IMEMtoPC)
+);
+Inc2 inst3(
+.DATA_IN(PCtoIMEM),
+.DATA_OUT(Inc2)
+);
+endmodule

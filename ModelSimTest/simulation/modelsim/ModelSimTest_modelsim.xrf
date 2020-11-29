@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, F:/VerilogHDL/ModelSimTest/ModelSimTest.v
+source_file = 1, F:/VerilogHDL/ModelSimTest/db/ModelSimTest.cbx.xml
+design_name = ModelSimTest
+instance = comp, \Clk~I , Clk, ModelSimTest, 1
+instance = comp, \Din~I , Din, ModelSimTest, 1
+instance = comp, \Qout~reg0feeder , Qout~reg0feeder, ModelSimTest, 1
+instance = comp, \Resetn~I , Resetn, ModelSimTest, 1
+instance = comp, \Qout~reg0 , Qout~reg0, ModelSimTest, 1
+instance = comp, \Qout~I , Qout, ModelSimTest, 1

@@ -1,0 +1,164 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Pos_FIFO
+vD_0
+Z0 !s110 1603679946
+!i10b 1
+!s100 GV=Hh@EJRFmJ^aD0:?[ML0
+ID0BSBK2Od6EBjZCndfJE]3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/Pre_SrWPL
+w1603635371
+8D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_0.v
+FD:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_0.v
+L0 7
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1603679946.000000
+!s107 D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_0.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_0.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@d_0
+vD_ff
+R0
+!i10b 1
+!s100 D]Q^00iK@g[[JK_V1`ME_0
+Im?BnXW8_0`g9YdZVU<MdG3
+R1
+R2
+w1603679124
+8D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_ff.v
+FD:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_ff.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_ff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_ff.v|
+!s101 -O0
+!i113 1
+R5
+n@d_ff
+vD_Flipflop
+R0
+!i10b 1
+!s100 @zdL49LOBNaIRlQ@G4?<V0
+IY1CSG:YYZ:oW@3EMa80^B2
+R1
+R2
+w1603679639
+8D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_Flipflop.v
+FD:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_Flipflop.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_Flipflop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_Flipflop.v|
+!s101 -O0
+!i113 1
+R5
+n@d_@flipflop
+vD_latch
+R0
+!i10b 1
+!s100 [lmUm]1?SR^RBdWWheTgD2
+Im6KgSF>jDF2O7T4A2z1;N1
+R1
+R2
+w1603679788
+8D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_latch.v
+FD:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_latch.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_latch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_latch.v|
+!s101 -O0
+!i113 1
+R5
+n@d_latch
+vD_n
+R0
+!i10b 1
+!s100 <=Z[5nhETGS3QVlgc^D:@2
+IoO6;<Gd]FSWi_HhQbYR^P3
+R1
+R2
+w1603679774
+8D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_n.v
+FD:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_n.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_n.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/D_n.v|
+!s101 -O0
+!i113 1
+R5
+n@d_n
+vSrWPL
+!s110 1603679945
+!i10b 1
+!s100 ZZABS0I?0UlRCf^Kd]PNK2
+I]>B@K7?Z2aGkbUnRnZP3C3
+R1
+R2
+w1603679758
+8D:\CE\HDLDesign\Lab\ShiftRegsister_w_Parallel_Load\SrWPL.v
+FD:\CE\HDLDesign\Lab\ShiftRegsister_w_Parallel_Load\SrWPL.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1603679945.000000
+!s107 D:\CE\HDLDesign\Lab\ShiftRegsister_w_Parallel_Load\SrWPL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\CE\HDLDesign\Lab\ShiftRegsister_w_Parallel_Load\SrWPL.v|
+!s101 -O0
+!i113 1
+R5
+n@sr@w@p@l
+vTestbench
+R0
+!i10b 1
+!s100 ^K==b>71ZT??^Z:?Mda=V3
+I:5m3g@Gj8l3=JKlYj4@g91
+R1
+R2
+w1603641266
+8D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/Pre_SrWPL/Testbench.v
+FD:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/Pre_SrWPL/Testbench.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/Pre_SrWPL/Testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CE/HDLDesign/Lab/ShiftRegsister_w_Parallel_Load/Pre_SrWPL/Testbench.v|
+!s101 -O0
+!i113 1
+R5
+n@testbench

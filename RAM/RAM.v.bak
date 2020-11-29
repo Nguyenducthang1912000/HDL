@@ -1,0 +1,6 @@
+module Decoder_3to8 (Z,A);
+parameter inde = 3;
+parameter outde = 8;
+input [inde-1:0] A;
+output [outde-1:0] Z;
+

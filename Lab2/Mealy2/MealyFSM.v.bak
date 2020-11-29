@@ -1,0 +1,14 @@
+module MealyFSM (Data_i,clk,Data_o);
+//input 
+input [3:0] Data_i;
+input clk;
+//output
+output Data_o;
+//port type
+wire [1:0] NStoReg;
+wire [1:0] RegtoNS;
+NextState NextState_inst0(
+.Data_i(Data_i),
+.Data_o(NStoReg),
+.CurrentState_i(RegtoNS)
+);

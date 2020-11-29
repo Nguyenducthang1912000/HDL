@@ -1,0 +1,10 @@
+
+module HAS (C_out,D_FF,D_in,En,Q)
+	input D_in,En,Q;
+	output C_out,D_FF;
+	
+	wire Q_n,and1_out,En_n;
+	
+	not Q_not (Q_n,Q); 
+	and and1 (and1_out,D_in,En,Q_out);
+	

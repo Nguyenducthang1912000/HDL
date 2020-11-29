@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vSRAM
+Z1 !s100 Qm[?8Lf=okHlVgHO]QjD_1
+Z2 IcXU`B`TVLam[Mc0BJ8Q?G0
+Z3 V=fPJLa57z;oZ1B7KFoL391
+Z4 dF:\VerilogHDL\SRAM\simulation\modelsim
+Z5 w1604238132
+Z6 8F:/VerilogHDL/SRAM/simulation/modelsim/SRAM.vo
+Z7 FF:/VerilogHDL/SRAM/simulation/modelsim/SRAM.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|F:/VerilogHDL/SRAM/simulation/modelsim/SRAM.vo|
+Z10 o-work work -O0
+Z11 n@s@r@a@m
+!i10b 1
+!s85 0
+Z12 !s108 1604385035.570000
+Z13 !s107 F:/VerilogHDL/SRAM/simulation/modelsim/SRAM.vo|
+!s101 -O0
+vTestbench
+!i10b 1
+Z14 !s100 VE@XZ135hb>YFOGeRb2mO1
+Z15 I8dm5K^[c9dH2EITI;S9MD2
+Z16 VGdUiEZgaMiVEi@bgHJeE13
+R4
+Z17 w1603764820
+Z18 8F:/VerilogHDL/SRAM2/Pre_SRAM/Testbench.v
+Z19 FF:/VerilogHDL/SRAM2/Pre_SRAM/Testbench.v
+L0 4
+R8
+r1
+!s85 0
+31
+!s108 1604385039.257000
+!s107 F:/VerilogHDL/SRAM2/Pre_SRAM/Testbench.v|
+Z20 !s90 -reportprogress|300|-work|work|F:/VerilogHDL/SRAM2/Pre_SRAM/Testbench.v|
+!s101 -O0
+R10
+Z21 n@testbench

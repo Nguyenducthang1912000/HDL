@@ -1,0 +1,15 @@
+module Mux3bit (A_IN,B_IN,Select,DATA_OUT);
+parameter n = 3;
+input[n-1:0] A_IN;
+input[n-1:0] B_IN;
+input Select;
+output[n-1:0] DATA_OUT;
+reg[n-1:0] DATA_OUT;
+always @(*) begin
+	DATA_OUT = 0;
+	if(Select == 0) 
+		DATA_OUT = A_IN;
+	else if (Select == 1)
+		DATA_OUT = B_IN;
+end
+endmodule

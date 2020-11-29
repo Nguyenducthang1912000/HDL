@@ -1,0 +1,101 @@
+D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Pos_FIFO/Test_sram.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Pos_FIFO/Test_sram.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Test_sram
+
+Top level modules:
+	Test_sram
+
+} {} {}} D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/D_FF.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/D_FF.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module D_FF
+
+Top level modules:
+	D_FF
+
+} {} {}} D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/mencell_8b_ver2.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/mencell_8b_ver2.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mencell_8b_ver2
+
+Top level modules:
+	mencell_8b_ver2
+
+} {} {}} D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Comparator.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Comparator.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Comparator
+
+Top level modules:
+	Comparator
+
+} {} {}} D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/memcell_1b.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/memcell_1b.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module memcell_1b
+
+Top level modules:
+	memcell_1b
+
+} {} {}} D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Pos_FIFO/Test_counter.v {2 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Pos_FIFO/Test_counter.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+** Warning: D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Pos_FIFO/Test_counter.v(2): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+-- Compiling module Test_counter
+
+Top level modules:
+	Test_counter
+
+} {} {}} D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/SRAM_2x10_8bit.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/SRAM_2x10_8bit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module SRAM_2x10_8bit
+
+Top level modules:
+	SRAM_2x10_8bit
+
+} {} {}} D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/FIFO.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/FIFO.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module FIFO
+
+Top level modules:
+	FIFO
+
+} {} {}} D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/UpDown_Counter.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/UpDown_Counter.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module UpDown_Counter
+
+Top level modules:
+	UpDown_Counter
+
+} {} {}} D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/HAS.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/HAS.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module HAS
+
+Top level modules:
+	HAS
+
+} {} {}} D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/d_latch.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/d_latch.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module d_latch
+
+Top level modules:
+	d_latch
+
+} {} {}} D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Mux2_1.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Mux2_1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux2_1
+
+Top level modules:
+	Mux2_1
+
+} {} {}} D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/Pos_FIFO/Testbench.v {1 {vlog -work work -stats=none {D:\CE\HDLDesign\Lab\FIFO_2x10_8bit\Pos_FIFO\Testbench.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Testbench
+
+Top level modules:
+	Testbench
+
+} {} {}} D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/decoder_10bit.v {1 {vlog -work work -stats=none D:/CE/HDLDesign/Lab/FIFO_2x10_8bit/decoder_10bit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module decoder_10bit
+
+Top level modules:
+	decoder_10bit
+
+} {} {}}

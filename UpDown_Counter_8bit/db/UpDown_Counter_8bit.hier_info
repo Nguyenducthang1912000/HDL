@@ -1,0 +1,8 @@
+|Mux2_1
+Out <= nand3.DB_MAX_OUTPUT_PORT_TYPE
+In0 => nand1.IN0
+In1 => nand2.IN0
+S => nand2.IN1
+S => nand1.IN1
+
+

@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\VerilogHDL\Lab2\Moore\simulation\qsim
+vMooreFSM
+Z1 IIkPLoIDaXQ<C=F^Sn8`g33
+Z2 V9oNjA?zViGk9J0?dREXOj1
+Z3 dF:\VerilogHDL\Lab2\Moore\simulation\qsim
+Z4 w1603327612
+Z5 8MooreFSM.vo
+Z6 FMooreFSM.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|MooreFSM.vo|
+Z9 o-work work -O0
+Z10 n@moore@f@s@m
+!i10b 1
+Z11 !s100 GI4CVECOe1m3X]L><S`bk0
+!s85 0
+Z12 !s108 1603327613.062000
+Z13 !s107 MooreFSM.vo|
+!s101 -O0
+vMooreFSM_vlg_check_tst
+!i10b 1
+Z14 !s100 626AX_SKJ6>cJ12hd8EjR1
+Z15 I[M5S;`F7mm8U8j9B5m>f42
+Z16 V0RKH=Lg;R`K2VdbKQ6V1T2
+R3
+Z17 w1603327611
+Z18 8MooreFSM.vt
+Z19 FMooreFSM.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z20 !s108 1603327613.272000
+Z21 !s107 MooreFSM.vt|
+Z22 !s90 -work|work|MooreFSM.vt|
+!s101 -O0
+R9
+Z23 n@moore@f@s@m_vlg_check_tst
+vMooreFSM_vlg_sample_tst
+!i10b 1
+Z24 !s100 LEa8ORVeWO^IBn8eZHK5R0
+Z25 IGElWk2GR=eFo@dGdn_4H43
+Z26 VR>CBHj6ceD2^J0O`fikQ?1
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@moore@f@s@m_vlg_sample_tst
+vMooreFSM_vlg_vec_tst
+!i10b 1
+Z28 !s100 MX2_im^^fkh?[SO`AhcTn2
+Z29 I]G?T]HH2a]P0f7>j]Z:5d1
+Z30 V?^A1_Q]oE;AN0_bof<1iL0
+R3
+R17
+R18
+R19
+Z31 L0 421
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 n@moore@f@s@m_vlg_vec_tst

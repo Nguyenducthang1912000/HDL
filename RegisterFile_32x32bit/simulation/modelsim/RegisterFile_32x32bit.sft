@@ -1,0 +1,5 @@
+set tool_name "ModelSim-Altera (Verilog)"
+set corner_file_list {
+	{{"Slow Model"} {RegisterFile_32x32bit.vo RegisterFile_32x32bit_v.sdo}}
+	{{"Fast Model"} {RegisterFile_32x32bit_fast.vo RegisterFile_32x32bit_v_fast.sdo}}
+}

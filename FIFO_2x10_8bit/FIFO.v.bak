@@ -1,0 +1,65 @@
+//module Top_add1 (Cout,Out,Din,En,clk,rst);
+//module Comparator (data_out,data_a,data_b);
+//module SRAM_2x10_8bit (data_io,row_sl,chip_sl,address);
+//module Mux2_1_10bit (data_out, data_in0, data_in1,select);
+
+
+
+module FIFO (empty,full,data_io,rst,clk,read_write,enable);
+	inout [7:0] data_io;
+	input rst,clk,read_write,enable;
+	output empty,full;
+	
+	wire [7:0] data_io;
+	wire rst,clk,read_write,enable,empty,full;
+	
+	wire [10:0] mux_in0,mux_in1;
+	wire [9:0]  mux_out;
+	
+	wire andout0,andout1,out_comparator,xor_out;
+	
+	and and0 (andout0,!read_write,enable);
+	and and1 (andout1, read_write,enable);
+	
+	Top_add1 inst0 (
+	.Out(mux_in1[9:0]),
+	.Din(1'b0),
+	.En(and0),
+	.clk(clk),
+	.rst(rst)
+	);
+	
+	Top_add1 inst1 (
+	.Out(mux_in0[9:0]),
+	.Din(1'b0),
+	.En(and1),
+	.clk(clk),
+	.rst(rst)
+	);
+	
+	Comparator inst2 (
+	.data_out(out_comparator),
+	.data_a(mux_in0[9:0]),
+	.data_b(mux_in1[9:0])
+	);
+	
+	Mux2_1_10bit inst3 (
+	.data_out(mux_out[9:0]),
+	.data_in0(mux_in1[9:0]),
+	.data_in1(mux_in0[9:0]),
+	.select()
+	);
+	
+	SRAM_2x10_8bit inst4 (
+	.data_io(data_io),
+	.row_sl(and1),
+	.chip_sl(enable),
+	.address(mux_out[9:0])
+	);
+	
+	xor xor0 (xor_out,mux_in1[10],mux_in0[10]);
+	and and2 (empty,out_comparator,!xor_out);
+	and and3 (full, out_comparator, xor_out);
+	
+
+endmodule 

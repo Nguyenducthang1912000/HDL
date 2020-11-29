@@ -1,0 +1,37 @@
+module NextState(NS_o,NS_i,Reg_i);
+//input declarations
+input[3:0] NS_i;
+input[2:0] Reg_i
+//output declarations
+output[3:0] NS_o
+//internal connect
+always @(value,state) 
+begin
+	case(Data_i)
+		4'd1: 
+			begin
+				if(state==2'd0)
+					data_o = 3'd1;
+				else
+					data_o = 3'd0;
+			end
+		4'd3:
+			begin
+				if(state==2'd1)
+					data_o = 3'd2;
+				else 
+					data_o = 3'd0;
+			end
+		4'd9:
+			begin 
+				if(state==2'd2)
+					data_o = 3'd3;
+				else
+					data_o = 3'd0;
+			end
+		4'd3:
+			begin
+				if(state==2'd3)
+					data_o = 3'd4;
+				else
+					data_o = 3'd0;

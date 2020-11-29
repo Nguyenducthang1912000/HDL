@@ -1,0 +1,50 @@
+module NextState (Done,CurrentState,NextState);
+output Done;
+input [15:0] CurrentState;
+output [15:0] NextState;
+//port type
+reg [15:0] NextState;
+reg Done;
+
+always @(*) begin
+	case(CurrentState)
+		16'd0:
+			NextState = NextState + 1'd1;
+		16'd1:
+			NextState = NextState + 1'd1;
+		16'd2:
+			NextState = NextState + 1'd1;
+		16'd3:
+			NextState = NextState + 1'd1;
+		16'd4:
+			NextState = NextState + 1'd1;
+		16'd5:
+			NextState = NextState + 1'd1;
+		16'd6:
+			NextState = NextState + 1'd1;
+		16'd7:
+			NextState = NextState + 1'd1;
+		16'd8:
+			NextState = NextState + 1'd1;
+		16'd9:
+			NextState = NextState + 1'd1;
+		16'd10:
+			NextState = NextState + 1'd1;
+		16'd11:
+			NextState = NextState + 1'd1;
+		16'd12:
+			NextState = NextState + 1'd1;
+		16'd13:
+			NextState = NextState + 1'd1;
+		16'd14:
+			NextState = NextState + 1'd1;
+		16'd15:
+			begin
+				NextState = 1'd0;
+				Done = 1'd1;
+			end
+		default 
+				Done = 1'd1;
+	endcase
+end
+endmodule

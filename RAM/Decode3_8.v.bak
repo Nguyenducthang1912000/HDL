@@ -1,0 +1,10 @@
+module RAM (Z,A);
+parameter inde = 3;
+parameter outde = 8;
+//input port declarations
+input [inde-1:0] A;
+//output port declarations
+output [outde-1:0] Z;
+//code begin here 
+and (Z[0],!A[0],!A[1],!A[2]);
+endmodule

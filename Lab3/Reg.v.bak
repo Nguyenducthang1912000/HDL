@@ -1,0 +1,15 @@
+module Reg(
+	input[15:0] RegIn;
+	input OE;
+	input clk;
+	output[15:0] RegOut;
+);
+wire[15:0] RegIn;
+reg [15:0] RegOut
+always @(posedge clk) begin
+	if(OE)
+		RegOut<=RegIn;
+	else
+		RegOut<=16'd0;
+end
+endmodule

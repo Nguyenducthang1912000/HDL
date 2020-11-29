@@ -1,0 +1,11 @@
+module outFSM (in_i,out_o);
+input [2:0] in_i;
+output out_o;
+reg out_o;
+always @(in_i) begin
+	if(in_i==3'd4)
+		out_o=1'd1;
+	else
+		out_o=1'd0;
+end
+endmodule
